@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/Carli/AppData/Roaming/.minecraft/versions/modpack/saves/LAN_20240714
+}
+
