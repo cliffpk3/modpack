@@ -202,9 +202,10 @@ PlayerEvents.loggedIn(event => {
             display:{Name: '{"text":"' + bundleName + '"}'}});
 
         // Add the artifact bundle to the player's inventory
+		let playername = player.getName().getString();			
         player.give(artifactBundle);
-		player.runCommandSilent(`effect give ${playername} minecraft:regeneration 60 4`);	
-		player.runCommandSilent(`effect give ${playername} minecraft:resistance 60 4`);			
+		player.runCommandSilent(`effect give ${playername} minecraft:regeneration 60 3`);
+		player.runCommandSilent(`effect give ${playername} minecraft:resistance 60 3`);		
     }
 });
 

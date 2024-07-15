@@ -13546,6 +13546,28 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -60004052242800,
+          "name": "biomespawnpoint-1.20.1-2.2",
+          "favorite": false,
+          "version": {
+            "id": -60004052560200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "1d0e981467efca0793fabbbd231f5f5e41bc5ebe",
+              "size": 36341,
+              "path": "mods/biomespawnpoint-1.20.1-2.2.jar",
+              "url": "mods/biomespawnpoint-1.20.1-2.2.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [

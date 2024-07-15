@@ -1,7 +1,7 @@
 
 [Wegotrunnersrate]
 	#currently 8 percent, increase for more runners
-	"Runners Spawn Rate" = 0.08
+	"Runners Spawn Rate" = 0.05
 	#currently 10 percent, increase for more grounders. (The less this is the more normal zombies spawn)
 	"Grounders Scale Rate" = 0.1
 

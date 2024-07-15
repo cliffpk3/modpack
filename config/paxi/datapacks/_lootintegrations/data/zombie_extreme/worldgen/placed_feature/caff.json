@@ -1,5 +1,11 @@
 {
   "feature": "zombie_extreme:caff",
-  "placement": [
-]
+  "placement": [{
+      "type": "minecraft:rarity_filter",
+      "chance": 10
+    },
+    {
+      "type": "minecraft:count",
+      "count": 1
+    }]
 }
