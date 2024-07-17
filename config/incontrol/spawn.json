@@ -69,15 +69,13 @@
 "result": "allow",
 "healthmultiply": 0.8,
 "speedmultiply": 0.6,
-"armormultiply": 0.3,
-"customname": "rule1 mob"
+"armormultiply": 0.3
 }, 
 {
 "hostile": true,
 "seesky": false, 
 "when": "onjoin",
-"result": "default",
-"customname": "rule2 mob"
+"result": "default"
 },
  
 {
@@ -87,7 +85,6 @@
 "result": "allow",
 "healthmultiply": 0.8,
 "speedmultiply": 0.6,
-"followrangemultiply": 0.7,
-"customname": "rule3 mob"
+"followrangemultiply": 0.7
 }
 ]

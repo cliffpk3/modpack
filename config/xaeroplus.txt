@@ -53,8 +53,8 @@
 [XP] Fix Main Entity Dot:true
 [XP] Minimap FPS Limiter:true
 [XP] Minimap FPS Limit:30.0
-[XP] Transparent Background:true
-[XP] Minimap Scaling Factor:2.0
+[XP] Transparent Background:false
+[XP] Minimap Scaling Factor:1.0
 [XP] Switch to Nether:false
 [XP] Switch to Overworld:false
 [XP] Switch to End:false

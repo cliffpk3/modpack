@@ -13568,6 +13568,72 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -78820557170500,
+          "name": "avatar_daystohorders-1.0.7",
+          "favorite": false,
+          "version": {
+            "id": -78820557661500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "199bda49e7659cf10feba5cd60aba59a3bf71953",
+              "size": 28742,
+              "path": "mods/avatar_daystohorders-1.0.7.jar",
+              "url": "mods/avatar_daystohorders-1.0.7.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -167580316875800,
+          "name": "avatar_daystohorders-1.0.8",
+          "favorite": false,
+          "version": {
+            "id": -167580317172200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "a3a179f02314416c0c73848f2565a7a7edaf3cc1",
+              "size": 31234,
+              "path": "mods/avatar_daystohorders-1.0.8.jar",
+              "url": "mods/avatar_daystohorders-1.0.8.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -167580317393700,
+          "name": "infernalmobs-1.20.1.3_custom",
+          "favorite": false,
+          "version": {
+            "id": -167580317687100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8b5d77a45f43cbf573fa358d9113a02922a98685",
+              "size": 142186,
+              "path": "mods/infernalmobs-1.20.1.3_custom.jar",
+              "url": "mods/infernalmobs-1.20.1.3_custom.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
