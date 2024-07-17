@@ -1,7 +1,6 @@
 *.batmods/alexscaves-1.1.4.jar
 config/*.logs
 config/*.logs.gz
-config/*-server.toml
 git-bash.exe.*
 logs/*
 mods/alexscaves-1.1.4.jar
