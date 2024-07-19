@@ -68,8 +68,7 @@
 "when": "onjoin",
 "result": "allow",
 "healthmultiply": 0.8,
-"speedmultiply": 0.6,
-"armormultiply": 0.3
+"armormultiply": 0.6
 }, 
 {
 "hostile": true,
@@ -77,14 +76,13 @@
 "when": "onjoin",
 "result": "default"
 },
- 
 {
 "seesky": true, 
 "hostile": true,
 "when": "onjoin",
 "result": "allow",
 "healthmultiply": 0.8,
-"speedmultiply": 0.6,
+"speedmultiply": 0.9,
 "followrangemultiply": 0.7
 }
 ]
