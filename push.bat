@@ -66,7 +66,7 @@ if %errorlevel% neq 0 (
     pause    
     exit /b %errorlevel%
 )
-git push
+git push --force
 if %errorlevel% neq 0 (
     echo Erro ao fazer push do .gitignore
     pause    

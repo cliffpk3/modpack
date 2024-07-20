@@ -13700,6 +13700,28 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -427865780310000,
+          "name": "avatar_daystohorders-1.1.0",
+          "favorite": false,
+          "version": {
+            "id": -427865781082200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2ffe7276d43214a31c07d10d3a6062cae90dcd0a",
+              "size": 35590,
+              "path": "mods/avatar_daystohorders-1.1.0.jar",
+              "url": "mods/avatar_daystohorders-1.1.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [

@@ -1,5 +1,24 @@
 [
 {
+    "dimension": "minecraft:overworld",
+    "hostile": true,
+    "mincount": {
+      "amount": 50,
+      "hostile": true,
+      "perplayer": true
+    },
+    "result": "deny"
+},
+{
+    "mod": "zombie_extreme",
+    "when": "onjoin",
+    "result": "allow",
+    "healthmultiply": 1.2,
+    "damagemultiply": 1.6,
+    "followrangemultiply": 1.2,
+    "speedmultiply": 0.8
+},    
+{
 "mod": "zombie_extreme",
 "when": "onjoin",
 "result": "allow",
