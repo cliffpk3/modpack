@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: townsandtowers
-Specification-Vendor: Kubek, Biban_Auriu, Cristelknight
-Specification-Version: 1
-Implementation-Title: t_and_t
-Implementation-Version: 1.10.2
-Implementation-Vendor: Kubek, Biban_Auriu, Cristelknight
-Implementation-Timestamp: 2023-05-07T21:17:13+0200
-

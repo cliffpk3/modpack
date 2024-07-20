@@ -49,6 +49,9 @@
 				pewen = true
 				thornwood = true
 
+			[general.types.wood_type.born_in_chaos_v1]
+				scorched = true
+
 		[general.types.leaves_type]
 
 			[general.types.leaves_type.twilightforest]

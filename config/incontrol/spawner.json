@@ -1,23 +1,22 @@
 [
   {
     "mob": ["minecraft:zombie"],    
-    "persecond": 30,
+    "persecond": 60,
     "attempts": 6,
     "conditions": {  
       "dimension": "minecraft:overworld",      
-      "norestrictions": true,
+      "norestrictions": true,      
       "mindist": 30,
       "maxdist": 60,      
-      "maxthis": 20
+      "maxthis": 7
     }        
   },  
   {
     "mob": ["minecraft:skeleton"],    
-    "persecond": 30,
+    "persecond": 60,
     "attempts": 1,
     "conditions": {  
-      "dimension": "minecraft:overworld",      
-      "norestrictions": true,
+      "dimension": "minecraft:overworld",    
       "mindist": 30,
       "maxdist": 60,      
       "maxthis": 5
