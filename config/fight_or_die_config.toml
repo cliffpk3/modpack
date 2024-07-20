@@ -43,7 +43,7 @@
 [Spawns]
 	"mob|weight|minimum|maximum" = ["fight_or_die:shiller|45|1|3", "fight_or_die:springer|30|1|2", "fight_or_die:mutated_human|28|1|2", "fight_or_die:mutated_player|20|1|2", "fight_or_die:mutated_villager|25|1|2", "fight_or_die:mutated_cow|25|1|2", "fight_or_die:mutated_sheep|25|1|2", "fight_or_die:mutated_pig|25|1|2", "fight_or_die:mutated_fox|22|1|2", "fight_or_die:mutated_creeper|9|1|1", "fight_or_die:mutated_enderman|3|1|1"]
 	#Default 60
-	MobCap = 60
+	MobCap = 30
 	#Default minecraft:is_overworld
 	"Dictates in what biome the parasites spawn" = ["minecraft:is_overworld"]
 

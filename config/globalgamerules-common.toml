@@ -121,8 +121,6 @@
 		tf_enforced_progression = true
 		#Whether new sources of water are allowed to form.
 		water_source_conversion = true
-		#Non Vanilla gamerule: 'constantZeroEvolutionPoints'
-		constant_zero_evolution_points = false
 
 	[gamerules.spawning]
 		#Whether phantoms can spawn in the nighttime.

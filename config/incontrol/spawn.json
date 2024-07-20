@@ -1,8 +1,10 @@
 [
 {
 "dimension": "minecraft:overworld",
+"hostile": true,
 "mincount": {
   "amount": 50,
+  "hostile": true,    
   "perplayer": true
 },
 "result": "deny"
@@ -90,7 +92,7 @@
 "when": "onjoin",
 "result": "allow",
 "healthmultiply": 0.8,
-"speedmultiply": 0.9,
+"speedmultiply": 0.8,
 "followrangemultiply": 0.7
 }
 ]

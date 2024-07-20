@@ -5,10 +5,10 @@
     "attempts": 6,
     "conditions": {  
       "dimension": "minecraft:overworld",      
-      "norestrictions": true,      
+      "norestrictions": true,
       "mindist": 30,
       "maxdist": 60,      
-      "maxthis": 7
+      "maxthis": 5
     }        
   },  
   {
@@ -16,10 +16,11 @@
     "persecond": 60,
     "attempts": 1,
     "conditions": {  
-      "dimension": "minecraft:overworld",    
+      "dimension": "minecraft:overworld",   
+      "norestrictions": true,       
       "mindist": 30,
       "maxdist": 60,      
-      "maxthis": 5
+      "maxthis": 2
     }        
   },    
     {
