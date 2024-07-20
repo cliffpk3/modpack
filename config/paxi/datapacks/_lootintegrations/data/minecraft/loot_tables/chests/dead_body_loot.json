@@ -21,14 +21,14 @@
         {
           "type": "minecraft:tag",
           "name": "kubejs:medicine",
-          "expand": false,
+          "expand": true,
           "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 6
+                "min": 1,
+                "max": 2
               },
               "add": true
             }

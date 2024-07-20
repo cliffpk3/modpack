@@ -13678,6 +13678,28 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -360662251552100,
+          "name": "polymorph-neoforge-1.0.4+1.21",
+          "favorite": false,
+          "version": {
+            "id": -360662262692000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "8085d531b11a34846ce1e17b7c849040d4db13fe",
+              "size": 170879,
+              "path": "mods/polymorph-neoforge-1.0.4+1.21.jar",
+              "url": "mods/polymorph-neoforge-1.0.4+1.21.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [

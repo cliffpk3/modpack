@@ -10,7 +10,7 @@
           "type": "minecraft:tag",
           "name": "kubejs:medicine",
           "expand": true,
-          "weight": 1,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -23,19 +23,22 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_apple",
-          "weight": 1,
+          "name": "minecraft:gold_nugget",
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 1
+              "count": {
+                "min": 4,
+                "max": 6
+              }
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:bread",
-          "weight": 10,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
