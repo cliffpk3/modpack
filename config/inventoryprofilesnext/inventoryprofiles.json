@@ -1,11 +1,12 @@
 {
     "ModSettings": {
-        "villager_trading_group_1": {
-            "value": true
+        "enable_profiles": {
+            "value": false
         },
-        "villager_trading_group_2": {
-            "value": true
+        "villager_trading_enable": {
+            "value": false
         },
+        "for_modpack_devs": true,
         "first_run": false
     },
     "GuiSettings": {
@@ -37,6 +38,7 @@
         }
     },
     "LockedSlotsSettings": {
+        "locked_slots_disable_quick_move_throw": false,
         "lock_slots_disable_user_interaction": {
             "value": true
         },

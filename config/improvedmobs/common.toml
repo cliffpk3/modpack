@@ -112,13 +112,13 @@
 	Sound = false
 	#Chance for a mob to be able to break blocks
 	#Range: 0.0 ~ 1.0
-	"Breaker Chance" = 1.0E-4
+	"Breaker Chance" = 0.8
 	#Initial cooldown for block breaking mobs
 	#Range: > 0
 	"Breaker Initial Cooldown" = 120
 	#Cooldown for breaking blocks
 	#Range: > 0
-	"Breaker Cooldown" = 20
+	"Breaker Cooldown" = 1
 	#Blocks will be restored after x ticks being broken. If set to 0 will never restore
 	#This will not restore block entity data!
 	#Range: > 0
@@ -203,7 +203,7 @@
 	"Enchanting Whitelist" = false
 	#Chance for mobs to have an item in offhand
 	#Range: 0.0 ~ 1.0
-	"Item Equip Chance" = 0.2
+	"Item Equip Chance" = 0.25
 	#Adds additional x*difficulty% to base item chance
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Item Chance add" = 0.2

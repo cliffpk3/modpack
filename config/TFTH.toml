@@ -296,7 +296,7 @@
 		#Maximum Enlightened Mobs
 		#Default values 45
 		#Range: > 0
-		"Max Enlightened Mobs" = 10
+		"Max Enlightened Mobs" = 20
 
 		["MOB SETTINGS"."DESPAWN MOBS"."EMBRYO DESPAWN PRIORITY"]
 			#This is the priority of the mobs. Lower number mobs will be despawned first

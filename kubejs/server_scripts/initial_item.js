@@ -186,7 +186,7 @@ PlayerEvents.loggedIn(event => {
         } else if (randomNum === 2 || randomNum === 3) {
             randomItem = rankA[Math.floor(Math.random() * rankA.length)];
             bundleName = '§6Rank A Bundle';
-        } else if (randomNum >= 4 && randomNum <= 6) {
+        } else if (randomNum >= 4 && randomNum <= 8) {
             randomItem = rankB[Math.floor(Math.random() * rankB.length)];
             bundleName = '§2Rank B Bundle';
         } else {

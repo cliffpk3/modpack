@@ -55,45 +55,16 @@ echo Duplicatas removidas e .gitignore ordenado.
 pause
 
 git add .gitignore
-if %errorlevel% neq 0 (
-    echo Erro ao adicionar .gitignore ao Git
-    
-    exit /b %errorlevel%
-)
+
 git commit -m "GitIgnore %currentDateTime%"
-if %errorlevel% neq 0 (
-    echo Erro ao fazer commit do .gitignore
-    
-    exit /b %errorlevel%
-)
-git push
-if %errorlevel% neq 0 (
-    echo Erro ao fazer push do .gitignore
-    
-    exit /b %errorlevel%
-)
+
+git push --force
+
 echo Commit e push do .gitignore concluídos.
-pause
 
 git add .
-if %errorlevel% neq 0 (
-    echo Erro ao adicionar mudanças ao Git
-    pause
-    exit /b %errorlevel%
-)
-git commit -m "%currentDateTime%"
-if %errorlevel% neq 0 (
-    echo Erro ao fazer commit das mudanças
-	pause
-    
-    exit /b %errorlevel%
-)
-git push
-if %errorlevel% neq 0 (
-    echo Erro ao fazer push das mudanças
-    pause
-    exit /b %errorlevel%
-)
-echo Commit e push das mudanças concluídos.
 
+git commit -m "%currentDateTime%"
+
+git push --force
 pause
