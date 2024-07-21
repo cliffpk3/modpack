@@ -37,7 +37,7 @@
       "Name": "minecraft:stone_slab"
     },
     "random_state": {
-      "double_sign_chance": 0.7,
+      "double_sign_chance": 0.9,
       "double_lantern_chance": 0.25,
       "stone_chance": 0.3,
       "stone_lantern_chance": 0.35,

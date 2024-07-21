@@ -63,7 +63,7 @@
 	#Do entities on the infectionEntities list automatically target entities on the infectionConversionList
 	infectionEntitiesAggroConversions = true
 	#What factor should the infection potion effect timer be multiplied by for each cured infection? (Resets on death, set to 1 to disable scaling)
-	effectStageTickReduction = 0.95
+	effectStageTickReduction = 0.5
 
 [Misc]
 	#Whether zombies and drowned burn in sunlight.
