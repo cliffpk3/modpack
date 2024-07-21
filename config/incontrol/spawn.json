@@ -1,14 +1,14 @@
 [
-{
-"dimension": "minecraft:overworld",
-"hostile": true,
-"mincount": {
-  "amount": 50,
-  "hostile": true,    
-  "perplayer": true
-},
-"result": "deny"
-},
+//{
+//"dimension": "minecraft:overworld",
+//"hostile": true,
+//"mincount": {
+//  "amount": 70,
+//  "hostile": true,    
+//  "perplayer": true
+//},
+//"result": "deny"
+//},
 {
 "mod": "zombie_extreme",
 "when": "onjoin",
@@ -78,7 +78,7 @@
 "when": "onjoin",
 "result": "allow",
 "healthmultiply": 0.8,
-"armormultiply": 0.6
+"armormultiply": 0.3
 }, 
 {
 "hostile": true,

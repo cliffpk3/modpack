@@ -1,12 +1,12 @@
 {
   "profession": "minecraft:librarian",
-  "removeOtherTrades": false,
-  "maxTrades": 2,
+  "removeOtherTrades": true,
+  "maxTrades": 16,
   "trades": [
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -25,11 +25,11 @@
         "itemKey": "minecraft:enchanted_book",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:power\",lvl:2s}]}"
+        "advancedNBTData": "{StoredEnchantments:[{id:\"mutantsbuff:smasher\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 11,
+        "amount": 14,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -50,8 +50,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 9,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 900,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -62,8 +62,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -82,11 +82,11 @@
         "itemKey": "minecraft:enchanted_book",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"alexscaves:charting_call\",lvl:1s}]}"
+        "advancedNBTData": "{StoredEnchantments:[{id:\"alexscaves:lasting_morale\",lvl:3s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 12,
+        "amount": 23,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -107,8 +107,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 5,
@@ -119,8 +119,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -139,11 +139,11 @@
         "itemKey": "minecraft:enchanted_book",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"alexscaves:x_ray\",lvl:1s}]}"
+        "advancedNBTData": "{StoredEnchantments:[{id:\"mutantsbuff:quick\",lvl:2s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 14,
+        "amount": 13,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -164,8 +164,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 10,
@@ -176,8 +176,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -196,11 +196,11 @@
         "itemKey": "minecraft:enchanted_book",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"alexscaves:taxing_bellow\",lvl:1s}]}"
+        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:efficiency\",lvl:2s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 11,
+        "amount": 30,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -221,8 +221,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -238,8 +238,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 4,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 400,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -270,7 +270,7 @@
         "itemKey": "quark:ancient_tome",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:lure\",lvl:3s}]}"
+        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5s}]}"
       },
       "request": {
         "itemKey": "quark:ancient_tome",
@@ -281,7 +281,7 @@
         "itemKey": "minecraft:enchanted_book",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:lure\",lvl:3s}]}"
+        "advancedNBTData": "{StoredEnchantments:[{id:\"minecraft:sharpness\",lvl:5s}]}"
       },
       "tradeExp": 3,
       "maxUses": 3,

@@ -1,12 +1,12 @@
 {
   "profession": "minecraft:armorer",
-  "removeOtherTrades": false,
-  "maxTrades": 2,
+  "removeOtherTrades": true,
+  "maxTrades": 16,
   "trades": [
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -28,8 +28,8 @@
         "advancedNBTData": "{Damage:0}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 7,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 700,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -46,8 +46,8 @@
         "advancedNBTData": "{Damage:0}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 4,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 400,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -64,8 +64,8 @@
         "advancedNBTData": "{Damage:0}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -82,8 +82,8 @@
         "advancedNBTData": "{Damage:0}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 9,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 900,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -94,8 +94,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -134,8 +134,8 @@
         "advancedNBTData": "{Damage:0}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 5,
@@ -152,8 +152,8 @@
         "advancedNBTData": "{Damage:0}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 5,
@@ -164,8 +164,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -181,8 +181,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -204,8 +204,8 @@
         "advancedNBTData": "{Damage:0}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 10,
@@ -222,8 +222,8 @@
         "advancedNBTData": "{Damage:0}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 4,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 400,
         "priceModifier": 0
       },
       "tradeExp": 10,
@@ -240,8 +240,8 @@
         "advancedNBTData": "{Damage:0}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 10,
@@ -255,11 +255,11 @@
         "itemKey": "minecraft:diamond_leggings",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:4s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:fire_protection\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 31,
+        "amount": 26,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -273,11 +273,11 @@
         "itemKey": "minecraft:diamond_boots",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:2s},{id:\"minecraft:depth_strider\",lvl:1s},{id:\"minecraft:feather_falling\",lvl:3s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:1s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 21,
+        "amount": 15,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -291,11 +291,11 @@
         "itemKey": "minecraft:diamond_helmet",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"wrd:hard_headded\",lvl:1s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 19,
+        "amount": 24,
         "priceModifier": 0
       },
       "tradeExp": 30,
@@ -309,7 +309,7 @@
         "itemKey": "minecraft:diamond_chestplate",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:protection\",lvl:2s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",

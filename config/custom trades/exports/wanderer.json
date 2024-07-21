@@ -1,6 +1,6 @@
 {
   "profession": "wanderer",
-  "removeOtherTrades": false,
+  "removeOtherTrades": true,
   "maxCommonTrades": 5,
   "maxRareTrades": 1,
   "trades": [
@@ -12,8 +12,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 200,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -30,8 +30,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 4,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 400,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -48,8 +48,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 200,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -66,8 +66,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -84,8 +84,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -102,8 +102,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -120,8 +120,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -138,8 +138,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -156,8 +156,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -174,8 +174,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -192,8 +192,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -210,8 +210,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -228,8 +228,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -246,8 +246,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -264,8 +264,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -282,8 +282,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -300,8 +300,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -318,8 +318,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -336,8 +336,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -354,8 +354,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -372,8 +372,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -390,8 +390,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -408,8 +408,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -426,8 +426,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -444,8 +444,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -462,8 +462,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -480,8 +480,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -498,8 +498,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -516,8 +516,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -534,8 +534,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -552,8 +552,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -570,8 +570,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -588,8 +588,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -606,8 +606,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -624,8 +624,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -642,8 +642,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -660,8 +660,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -678,8 +678,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -696,8 +696,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -714,8 +714,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -732,8 +732,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -750,8 +750,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -768,8 +768,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -786,8 +786,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -804,8 +804,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -822,8 +822,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -840,8 +840,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -858,8 +858,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -876,8 +876,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -894,8 +894,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -912,8 +912,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -930,8 +930,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -948,8 +948,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -966,8 +966,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -984,8 +984,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1002,8 +1002,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1020,8 +1020,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1038,8 +1038,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1056,8 +1056,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1074,8 +1074,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1092,8 +1092,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1110,8 +1110,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1128,8 +1128,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1146,13 +1146,290 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
       "maxUses": 5,
       "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "spelunkers_charm:mining_helmet",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Damage:0}"
+      },
+      "request": {
+        "itemKey": "minecraft:emerald",
+        "amount": 28,
+        "priceModifier": 0
+      },
+      "tradeExp": 5,
+      "maxUses": 10,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "alexsmobs:animal_dictionary",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 400,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "alexsmobs:acacia_blossom",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "alexsmobs:cockroach_ootheca",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 200,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "alexsmobs:blobfish_bucket",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 400,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 3,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "alexsmobs:crocodile_egg",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 600,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "alexsmobs:bear_fur",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "alexsmobs:crocodile_scute",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "alexsmobs:roadrunner_feather",
+        "amount": 2,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "tradeExp": 2,
+      "maxUses": 2,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "alexsmobs:mosquito_larva",
+        "amount": 3,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "tradeExp": 1,
+      "maxUses": 5,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "farmersdelight:cabbage_seeds",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "farmersdelight:tomato_seeds",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "farmersdelight:rice",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "farmersdelight:onion",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
+        "priceModifier": 0
+      },
+      "tradeExp": 12,
+      "maxUses": 1,
+      "priceMultiplier": 0.05,
+      "demand": 0,
+      "tradeLevel": 1
+    },
+    {
+      "isRare": false,
+      "offer": {
+        "itemKey": "minecraft:filled_map",
+        "amount": 1,
+        "priceModifier": 0,
+        "advancedNBTData": "{Decorations:[{id:\"+\",rot:180.0d,type:26b,x:-25216.0d,z:4848.0d}],display:{Name:\u0027{\"translate\":\"item.alexscaves.underground_cabin_explorer_map\"}\u0027},map:3}"
+      },
+      "request": {
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 800,
+        "priceModifier": 0
+      },
+      "additionalRequest": {
+        "itemKey": "minecraft:compass",
+        "amount": 1,
+        "priceModifier": 0
+      },
+      "tradeExp": 10,
+      "maxUses": 1,
+      "priceMultiplier": 0.2,
       "demand": 0,
       "tradeLevel": 1
     },
@@ -1182,8 +1459,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 6,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 600,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1211,264 +1488,6 @@
       "tradeLevel": 1
     },
     {
-      "isRare": false,
-      "offer": {
-        "itemKey": "alexsmobs:animal_dictionary",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 4,
-        "priceModifier": 0
-      },
-      "tradeExp": 1,
-      "maxUses": 2,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "alexsmobs:acacia_blossom",
-        "amount": 2,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
-        "priceModifier": 0
-      },
-      "tradeExp": 1,
-      "maxUses": 2,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "alexsmobs:cockroach_ootheca",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2,
-        "priceModifier": 0
-      },
-      "tradeExp": 1,
-      "maxUses": 2,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "alexsmobs:blobfish_bucket",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 4,
-        "priceModifier": 0
-      },
-      "tradeExp": 1,
-      "maxUses": 3,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "alexsmobs:crocodile_egg",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 6,
-        "priceModifier": 0
-      },
-      "tradeExp": 1,
-      "maxUses": 2,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "alexsmobs:bear_fur",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "tradeExp": 1,
-      "maxUses": 2,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "alexsmobs:crocodile_scute",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
-        "priceModifier": 0
-      },
-      "tradeExp": 1,
-      "maxUses": 2,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "alexsmobs:roadrunner_feather",
-        "amount": 2,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "tradeExp": 2,
-      "maxUses": 2,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "alexsmobs:mosquito_larva",
-        "amount": 3,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "tradeExp": 1,
-      "maxUses": 5,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "farmersdelight:cabbage_seeds",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "tradeExp": 12,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "farmersdelight:tomato_seeds",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "tradeExp": 12,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "farmersdelight:rice",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "tradeExp": 12,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "farmersdelight:onion",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "tradeExp": 12,
-      "maxUses": 1,
-      "priceMultiplier": 0.05,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
-      "isRare": false,
-      "offer": {
-        "itemKey": "minecraft:filled_map",
-        "amount": 1,
-        "priceModifier": 0,
-        "advancedNBTData": "{Decorations:[{id:\"+\",rot:180.0d,type:26b,x:-224.0d,z:80.0d}],display:{Name:\u0027{\"translate\":\"item.alexscaves.underground_cabin_explorer_map\"}\u0027},map:1}"
-      },
-      "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 8,
-        "priceModifier": 0
-      },
-      "additionalRequest": {
-        "itemKey": "minecraft:compass",
-        "amount": 1,
-        "priceModifier": 0
-      },
-      "tradeExp": 10,
-      "maxUses": 1,
-      "priceMultiplier": 0.2,
-      "demand": 0,
-      "tradeLevel": 1
-    },
-    {
       "isRare": true,
       "offer": {
         "itemKey": "minecraft:tropical_fish_bucket",
@@ -1476,8 +1495,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1494,8 +1513,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1512,8 +1531,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1530,8 +1549,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 6,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 600,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1548,8 +1567,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1566,8 +1585,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1603,8 +1622,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -1621,8 +1640,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 5,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 500,
         "priceModifier": 0
       },
       "tradeExp": 1,

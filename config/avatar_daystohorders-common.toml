@@ -2,7 +2,7 @@
 #Max mobs per player
 [maxMobsPerPlayer]
 	#Max mobs per player
-	default = "15"
+	default = "10"
 
 #Period wave
 [periodWave]

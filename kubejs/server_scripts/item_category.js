@@ -818,8 +818,6 @@ ServerEvents.tags('item', event => {
     'minecraft:potion', // All potions
     'minecraft:glass_bottle',
     'minecraft:experience_bottle',
-    'minecraft:emerald',
-    'minecraft:diamond',
     'minecraft:nether_star',
     'minecraft:firework_rocket',
     'minecraft:firework_star',
@@ -844,13 +842,15 @@ ServerEvents.tags('item', event => {
     'minecraft:tropical_fish_bucket'
   ]);
   event.add('kubejs:medicine', [
-   'zombie_extreme:dizziness_pill',
-   'zombie_extreme:pill_anti_hunger',
-   'zombie_extreme:pill_night_vision',
-   'zombie_extreme:pill_night_vision',
-   'zombie_extreme:syringe_drug',
-   'zombie_extreme:syringe_night_vision',
-   'zombie_extreme:syringe_adrenaline'
+   	'zombie_extreme:dizziness_pill',
+   	'zombie_extreme:pill_anti_hunger',
+   	'zombie_extreme:pill_night_vision',
+   	'zombie_extreme:pill_psycho',	
+   	'zombie_extreme:experimental_pill',		
+   	'zombie_extreme:syringe_drug',
+   	'zombie_extreme:syringe_night_vision',
+   	'zombie_extreme:syringe_adrenaline',
+	'zombie_extreme:syringe_antidote',
+	'zombie_extreme:syringe_stimulator'
   ]);  
-  
 });

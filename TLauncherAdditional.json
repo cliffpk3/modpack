@@ -13722,6 +13722,116 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -536486415425900,
+          "name": "avatar_daystohorders-1.1.2",
+          "favorite": false,
+          "version": {
+            "id": -536486417009300,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "87385b1e1b1f9d0105686e5aa510d58416d9b83f",
+              "size": 36057,
+              "path": "mods/avatar_daystohorders-1.1.2.jar",
+              "url": "mods/avatar_daystohorders-1.1.2.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -536486417272500,
+          "name": "born_in_chaos_[Forge]1.20.1_1.3.1",
+          "favorite": false,
+          "version": {
+            "id": -536486481789900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "2de8abf269f819361cb1ee8615cd57ad5d302c87",
+              "size": 11529399,
+              "path": "mods/born_in_chaos_[Forge]1.20.1_1.3.1.jar",
+              "url": "mods/born_in_chaos_[Forge]1.20.1_1.3.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -536486483942499,
+          "name": "letmedespawn-forge-1.20.1-1.20.4-1.2.1",
+          "favorite": false,
+          "version": {
+            "id": -536486485029100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "62f1aa1f71f2069f6754c902ece9758cbdcc154c",
+              "size": 85022,
+              "path": "mods/letmedespawn-forge-1.20.1-1.20.4-1.2.1.jar",
+              "url": "mods/letmedespawn-forge-1.20.1-1.20.4-1.2.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -536486485869700,
+          "name": "polymorph-forge-0.49.5+1.20.1",
+          "favorite": false,
+          "version": {
+            "id": -536486487928900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "94592f3ffba15b991118e7dbea99b7f10aa6c0cc",
+              "size": 298759,
+              "path": "mods/polymorph-forge-0.49.5+1.20.1.jar",
+              "url": "mods/polymorph-forge-0.49.5+1.20.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -536486489352599,
+          "name": "wythers_expanded_ecosphere-3.2.4-forge",
+          "favorite": false,
+          "version": {
+            "id": -536486497879700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "fd8bd4927b3e69a429790b7b2f887110fde93e96",
+              "size": 1963042,
+              "path": "mods/wythers_expanded_ecosphere-3.2.4-forge.jar",
+              "url": "mods/wythers_expanded_ecosphere-3.2.4-forge.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [

@@ -1,12 +1,12 @@
 {
   "profession": "minecraft:farmer",
-  "removeOtherTrades": false,
-  "maxTrades": 2,
+  "removeOtherTrades": true,
+  "maxTrades": 16,
   "trades": [
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -22,8 +22,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -39,8 +39,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -56,8 +56,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -78,8 +78,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -90,8 +90,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -107,8 +107,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -124,8 +124,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -146,8 +146,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 5,
@@ -163,8 +163,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 5,
@@ -175,8 +175,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -192,8 +192,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -214,8 +214,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 10,
@@ -226,8 +226,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -243,8 +243,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -265,8 +265,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -283,8 +283,8 @@
         "advancedNBTData": "{Effects:[{EffectDuration:100,EffectId:16,\"forge:effect_id\":\"minecraft:night_vision\"}]}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -301,8 +301,8 @@
         "advancedNBTData": "{Effects:[{EffectDuration:160,EffectId:8,\"forge:effect_id\":\"minecraft:jump_boost\"}]}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -319,8 +319,8 @@
         "advancedNBTData": "{Effects:[{EffectDuration:140,EffectId:18,\"forge:effect_id\":\"minecraft:weakness\"}]}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -337,8 +337,8 @@
         "advancedNBTData": "{Effects:[{EffectDuration:120,EffectId:15,\"forge:effect_id\":\"minecraft:blindness\"}]}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -355,8 +355,8 @@
         "advancedNBTData": "{Effects:[{EffectDuration:280,EffectId:19,\"forge:effect_id\":\"minecraft:poison\"}]}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -373,8 +373,8 @@
         "advancedNBTData": "{Effects:[{EffectDuration:7,EffectId:23,\"forge:effect_id\":\"minecraft:saturation\"}]}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -390,8 +390,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 30,
@@ -407,8 +407,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 4,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 400,
         "priceModifier": 0
       },
       "tradeExp": 30,

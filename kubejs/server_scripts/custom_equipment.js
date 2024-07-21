@@ -1,8 +1,8 @@
 ServerEvents.recipes(event => {	
     // Remove a receita existente
+    event.remove({mod:'grapplemod'});	
     event.remove({mod:'marbledsarsenal'});
     event.remove({mod:'zombie_extreme'});
-	event.remove({mod:'zombie_extreme'});
 	event.remove({id: 'quark:torch_arrow'});
 	
 	//Torch Arrow 
@@ -282,449 +282,481 @@ ServerEvents.recipes(event => {
         }
     });
     
-    // Combat Set ////////////////////////////////////////////////////////////
+    // Lr Armor - Set 1 //////////////////////////////////////////////////////
 	//////////////////////////////////////////////////////////////////////////
+
+	//1-Helmet
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "BAB",
-            "ACA",
-            "BAB"
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'marbledsapi:steel_sheet'},
-            B: {item: 'marbledsapi:hardened_steel_sheet'},
-            C: {item: 'minecraft:iron_helmet'}
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_helmet' },
+	
         },
-        result: {
-            item: 'zombie_extreme:combat_armor_helmet',
-            count: 1
-        }
+        result: {item: 'lrarmor:sniper_helmet'}
     });
 	
+	//2-Chestplate
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "BAB",
-            "ACA",
-            "BAB"
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'marbledsapi:steel_sheet'},
-            B: {item: 'marbledsapi:hardened_steel_sheet'},
-            C: {item: 'minecraft:iron_chestplate'}
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_chestplate' },
+	
         },
-        result: {
-            item: 'zombie_extreme:combat_armor_chestplate',
-            count: 1
-        }
-    });	
+        result: {item: 'lrarmor:sniper_chestplate'}
+    });
 
+	//3-Leggings
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "BAB",
-            "ACA",
-            "BAB"
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'marbledsapi:steel_sheet'},
-            B: {item: 'marbledsapi:hardened_steel_sheet'},
-            C: {item: 'minecraft:iron_leggings'}
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_leggings' },
+	
         },
-        result: {
-            item: 'zombie_extreme:combat_armor_leggings',
-            count: 1
-        }
+        result: {item: 'lrarmor:sniper_leggings'}
+    });
+
+	//4-Boots
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        pattern: [
+            'AAA',
+            'BEC',
+            'DDD'
+        ],
+        key: {
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_boots' },
+	
+        },
+        result: {item: 'lrarmor:sniper_boots'}
     });	
 	
+    // Lr Armor - Set 2 //////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+
+	//1-Helmet
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "BAB",
-            "ACA",
-            "BAB"
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'marbledsapi:steel_sheet'},
-            B: {item: 'marbledsapi:hardened_steel_sheet'},
-            C: {item: 'minecraft:iron_boots'}
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_helmet' },
+	
         },
-        result: {
-            item: 'zombie_extreme:combat_armor_boots',
-            count: 1
-        }
+        result: {item: 'lrarmor:armored_chemical_helmet'}
+    });
+	
+	//2-Chestplate
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        pattern: [
+            'AAA',
+            'BEC',
+            'DDD'
+        ],
+        key: {
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_chestplate' },
+	
+        },
+        result: {item: 'lrarmor:armored_chemical_chestplate'}
+    });
+
+	//3-Leggings
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        pattern: [
+            'AAA',
+            'BEC',
+            'DDD'
+        ],
+        key: {
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_leggings' },
+	
+        },
+        result: {item: 'lrarmor:armored_chemical_leggings'}
+    });
+
+	//4-Boots
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        pattern: [
+            'AAA',
+            'BEC',
+            'DDD'
+        ],
+        key: {
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_boots' },
+	
+        },
+        result: {item: 'lrarmor:armored_chemical_boots'}
     });		
+	
+    // Lr Armor - Set 1 //////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
 
-    // Black Juggernaut Set ////////////////////////////////////////////////////////////
-	////////////////////////////////////////////////////////////////////////////////////
+	//1-Helmet
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "BAB",
-            "ACA",
-            "BAB"
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'marbledsapi:steel_ingot'},
-            B: {item: 'marbledsapi:steel_sheet'},
-            C: {item: 'zombie_extreme:combat_armor_helmet'}
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_helmet' },
+	
         },
-        result: {
-            item: 'marbledsarsenal:black_juggernaut_armor_helmet',
-            count: 1
-        }
+        result: {item: 'lrarmor:attacker_helmet'}
     });
 	
+	//2-Chestplate
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "BAB",
-            "ACA",
-            "BAB"
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'marbledsapi:steel_ingot'},
-            B: {item: 'marbledsapi:steel_sheet'},
-            C: {item: 'zombie_extreme:combat_armor_chestplate'}
-        },
-        result: {
-            item: 'marbledsarsenal:black_juggernaut_armor_chestplate',
-            count: 1
-        }
-    });
-
-    event.custom({
-        type: 'minecraft:crafting_shaped',
-        pattern: [
-            "BAB",
-            "ACA",
-            "BAB"
-        ],
-        key: {
-            A: {item: 'marbledsapi:steel_ingot'},
-            B: {item: 'marbledsapi:steel_sheet'},
-            C: {item: 'zombie_extreme:combat_armor_leggings'}
-        },
-        result: {
-            item: 'marbledsarsenal:black_juggernaut_armor_leggings',
-            count: 1
-        }
-    });
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_chestplate' },
 	
-    event.custom({
-        type: 'minecraft:crafting_shaped',
-        pattern: [
-            "BAB",
-            "ACA",
-            "BAB"
-        ],
-        key: {
-            A: {item: 'marbledsapi:steel_ingot'},
-            B: {item: 'marbledsapi:steel_sheet'},
-            C: {item: 'zombie_extreme:combat_armor_boots'}
         },
-        result: {
-            item: 'marbledsarsenal:black_juggernaut_armor_boots',
-            count: 1
-        }
-    });	
-
-    // Riot Juggernaut Set /////////////////////////////////////////////////////////////
-	////////////////////////////////////////////////////////////////////////////////////
-    event.custom({
-        type: 'minecraft:crafting_shaped',
-        pattern: [
-            "ACA",
-            "CBC",
-            "ACA"
-        ],
-        key: {
-            A: {item: 'marbledsapi:steel_block'},
-            C: {item: 'minecraft:netherite_ingot'},			
-            B: {item: 'marbledsarsenal:black_juggernaut_armor_helmet'}
-        },
-        result: {
-            item: 'marbledsarsenal:riot_armor_helmet',
-            count: 1
-        }
+        result: {item: 'lrarmor:attacker_chestplate'}
     });
 
+	//3-Leggings
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "ACA",
-            "CBC",
-            "ACA"
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'marbledsapi:steel_block'},
-            C: {item: 'minecraft:netherite_ingot'},			
-            B: {item: 'marbledsarsenal:black_juggernaut_armor_chestplate'}
-        },
-        result: {
-            item: 'marbledsarsenal:riot_armor_chestplate',
-            count: 1
-        }
-    });	
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_leggings' },
 	
+        },
+        result: {item: 'lrarmor:attacker_leggings'}
+    });
+
+	//4-Boots
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "ACA",
-            "CBC",
-            "ACA"
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'marbledsapi:steel_block'},
-            C: {item: 'minecraft:netherite_ingot'},			
-            B: {item: 'marbledsarsenal:black_juggernaut_armor_leggings'}
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_boots' },
+	
         },
-        result: {
-            item: 'marbledsarsenal:riot_armor_leggings',
-            count: 1
-        }
+        result: {item: 'lrarmor:attacker_boots'}
     });		
+	
+    // Lr Armor - Set 1 //////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
 
+	//1-Helmet
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "ACA",
-            "CBC",
-            "ACA"
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'marbledsapi:steel_block'},
-            C: {item: 'minecraft:netherite_ingot'},			
-            B: {item: 'marbledsarsenal:black_juggernaut_armor_boots'}
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_helmet' },
+	
         },
-        result: {
-            item: 'marbledsarsenal:riot_armor_boots',
-            count: 1
-        }
-    });	
-
-    // Juggernaut Suit /////////////////////////////////////////////////////////////////
-	////////////////////////////////////////////////////////////////////////////////////
-    event.custom({
-        type: 'minecraft:crafting_shaped',
-        pattern: [
-            "AAA",
-            "CBC",
-            "AAA"
-        ],
-        key: {
-            A: {item: 'marbledsapi:hardened_steel_ingot'},
-            B: {item: 'zombie_extreme:combat_armor_helmet'},
-            C: {item: 'minecraft:green_dye'}	
-        },
-        result: {
-            item: 'zombie_extreme:juggernaut_suit_helmet',
-            count: 1
-        }
+        result: {item: 'lrarmor:attacker_helmet'}
     });
 	
+	//2-Chestplate
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "AAA",
-            "CBC",
-            "AAA"
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'marbledsapi:hardened_steel_ingot'},
-            B: {item: 'zombie_extreme:combat_armor_chestplate'},
-            C: {item: 'minecraft:green_dye'}	
-        },
-        result: {
-            item: 'zombie_extreme:juggernaut_suit_chestplate',
-            count: 1
-        }
-    });	
-
-    event.custom({
-        type: 'minecraft:crafting_shaped',
-        pattern: [
-            "AAA",
-            "CBC",
-            "AAA"
-        ],
-        key: {
-            A: {item: 'marbledsapi:hardened_steel_ingot'},
-            B: {item: 'zombie_extreme:combat_armor_leggings'},
-            C: {item: 'minecraft:green_dye'}	
-        },
-        result: {
-            item: 'zombie_extreme:juggernaut_suit_leggings',
-            count: 1
-        }
-    });	
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_chestplate' },
 	
-    event.custom({
-        type: 'minecraft:crafting_shaped',
-        pattern: [
-            "AAA",
-            "CBC",
-            "AAA"
-        ],
-        key: {
-            A: {item: 'marbledsapi:hardened_steel_ingot'},
-            B: {item: 'zombie_extreme:combat_armor_boots'},
-            C: {item: 'minecraft:green_dye'}	
         },
-        result: {
-            item: 'zombie_extreme:juggernaut_suit_boots',
-            count: 1
-        }
-    });		
-
-    // Exo Suit ////////////////////////////////////////////////////////////////////////
-	////////////////////////////////////////////////////////////////////////////////////
-    event.custom({
-        type: 'minecraft:crafting_shaped',
-        pattern: [
-            "AAA",
-            "CBC",
-            "AAA"
-        ],
-        key: {
-            A: {item: 'createdeco:netherite_sheet'},
-            B: {item: 'zombie_extreme:juggernaut_suit_helmet'},
-            C: {item: 'minecraft:redstone_block'}	
-        },
-        result: {
-            item: 'zombie_extreme:exo_suit_helmet',
-            count: 1
-        }
+        result: {item: 'lrarmor:attacker_chestplate'}
     });
 
+	//3-Leggings
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "AAA",
-            "CBC",
-            "AAA"
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'createdeco:netherite_sheet'},
-            C: {item: 'marbledsapi:steel_block'},
-            B: {item: 'zombie_extreme:juggernaut_suit_chestplate'}			
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_leggings' },
+	
         },
-        result: {
-            item: 'zombie_extreme:exo_suit_chestplate',
-            count: 1
-        }
+        result: {item: 'lrarmor:attacker_leggings'}
     });
 
+	//4-Boots
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "AAA",
-            "CBC",
-            "AAA"
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'createdeco:netherite_sheet'},
-            C: {item: 'marbledsapi:steel_block'},
-            B: {item: 'zombie_extreme:juggernaut_suit_leggings'}
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_boots' },
+	
         },
-        result: {
-            item: 'zombie_extreme:exo_suit_leggings',
-            count: 1
-        }
+        result: {item: 'lrarmor:attacker_boots'}
     });
 	
-    event.custom({
-        type: 'minecraft:crafting_shaped',
-        pattern: [
-            "AAA",
-            "CBC",
-            "AAA"
-        ],
-        key: {
-            A: {item: 'createdeco:netherite_sheet'},
-            C: {item: 'marbledsapi:steel_block'},
-            B: {item: 'zombie_extreme:juggernaut_suit_boots'}
-        },
-        result: {
-            item: 'zombie_extreme:exo_suit_boots',
-            count: 1
-        }
-    });	
+	
+    // Lr Armor - Set 1 //////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
 
-    // Night Vision Glasses  ////////////////////////////////////////////////////////////////////////
-	////////////////////////////////////////////////////////////////////////////////////
+	//1-Helmet
     event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            " A ",
-            "CBC",
-            "   "
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'zombie_extreme:combat_armor_helmet'},
-            B: {item: 'minecraft:emerald'},
-            C: {item: 'minecraft:emerald_block'}	
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_helmet' },
+	
         },
-        result: {
-            item: 'zombie_extreme:night_vision_glasses_helmet',
-            count: 1
-        }
-    });
-
-    // WEAPONS  ////////////////////////////////////////////////////////////////////////
-	////////////////////////////////////////////////////////////////////////////////////
-    event.custom({
-        type: 'minecraft:crafting_shaped',
-        pattern: [
-            "AAA",
-            " B ",
-            " B "
-        ],
-        key: {
-            A: {item: 'marbledsapi:steel_block'},
-            B: {item: 'createaddition:iron_rod'}
-		},
-        result: {
-            item: 'zombie_extreme:buzz_killer',
-            count: 1
-        }
+        result: {item: 'lrarmor:medical_helmet'}
     });
 	
-	    event.custom({
+	//2-Chestplate
+    event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            "CAC",
-            " A ",
-            " B "
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'minecraft:iron_sheet'},
-            B: {item: 'createaddition:iron_rod'},			
-            C: {item: 'minecraft:redstone'}
-		},			
-        result: {
-            item: 'zombie_extreme:electric_katana',
-            count: 1
-        }
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_chestplate' },
+	
+        },
+        result: {item: 'lrarmor:medical_chestplate'}
     });
-	// ITEMS //////////////////////////////////////////////////////////////////////////
-	///////////////////////////////////////////////////////////////////////////////////	
-	    event.custom({
+
+	//3-Leggings
+    event.custom({
         type: 'minecraft:crafting_shaped',
         pattern: [
-            " A ",
-            " B ",
-            " C "
+            'AAA',
+            'BEC',
+            'DDD'
         ],
         key: {
-            A: {item: 'supplementaries:ash'},
-            B: {item: 'minecraft:glass_bottle'},			
-            C: {item: 'minecraft:arrow'}
-		},			
-        result: {
-            item: 'zombie_extreme:syringe_drug',
-            count: 1
-        }
-    });	
-});	
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_leggings' },
+	
+        },
+        result: {item: 'lrarmor:medical_leggings'}
+    });
+
+	//4-Boots
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        pattern: [
+            'AAA',
+            'BEC',
+            'DDD'
+        ],
+        key: {
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_boots' },
+	
+        },
+        result: {item: 'lrarmor:medical_boots'}
+    });
+	
+	
+    // Lr Armor - Set 1 //////////////////////////////////////////////////////
+	//////////////////////////////////////////////////////////////////////////
+
+	//1-Helmet
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        pattern: [
+            'AAA',
+            'BEC',
+            'DDD'
+        ],
+        key: {
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_helmet' },
+	
+        },
+        result: {item: 'lrarmor:scout_helmet'}
+    });
+	
+	//2-Chestplate
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        pattern: [
+            'AAA',
+            'BEC',
+            'DDD'
+        ],
+        key: {
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_chestplate' },
+	
+        },
+        result: {item: 'lrarmor:scout_chestplate'}
+    });
+
+	//3-Leggings
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        pattern: [
+            'AAA',
+            'BEC',
+            'DDD'
+        ],
+        key: {
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_leggings' },
+	
+        },
+        result: {item: 'lrarmor:scout_leggings'}
+    });
+
+	//4-Boots
+    event.custom({
+        type: 'minecraft:crafting_shaped',
+        pattern: [
+            'AAA',
+            'BEC',
+            'DDD'
+        ],
+        key: {
+            A: { item: 'marbledsapi:steel_ingot' },
+            B: { item: 'minecraft:green_dye' },
+			C: { item: 'minecraft:black_dye' },
+            D: { item: 'zombie_extreme:ignot_titan' },
+			E: { item: 'minecraft:iron_boots' },
+	
+        },
+        result: {item: 'lrarmor:scout_boots'}
+    });
+	
+}
+);

@@ -1,7 +1,7 @@
 {
   "profession": "minecraft:leatherworker",
   "removeOtherTrades": true,
-  "maxTrades": 2,
+  "maxTrades": 16,
   "trades": [
     {
       "offer": {
@@ -9,15 +9,15 @@
         "amount": 64
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100
       },
       "tradeExp": 1,
       "maxUses": 12,
       "priceMultiplier": 0.2,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:leatherworker_basic_bullet_for_emerald"
+      "UTID": "minecraft:leatherworker_basic_bullet_for_gold"
     },
     {
       "offer": {
@@ -25,15 +25,15 @@
         "amount": 32
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100
       },
       "tradeExp": 1,
       "maxUses": 12,
       "priceMultiplier": 0.2,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:leatherworker_advanced_bullet_for_emerald"
+      "UTID": "minecraft:leatherworker_advanced_bullet_for_gold"
     },
     {
       "offer": {
@@ -41,15 +41,15 @@
         "amount": 24
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100
       },
       "tradeExp": 1,
       "maxUses": 12,
       "priceMultiplier": 0.2,
       "demand": 0,
       "tradeLevel": 1,
-      "UTID": "minecraft:leatherworker_shell_for_emerald"
+      "UTID": "minecraft:leatherworker_shell_for_gold"
     }
   ]
 }

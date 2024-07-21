@@ -1,12 +1,12 @@
 {
   "profession": "minecraft:butcher",
-  "removeOtherTrades": false,
-  "maxTrades": 2,
+  "removeOtherTrades": true,
+  "maxTrades": 16,
   "trades": [
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -22,8 +22,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -39,8 +39,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -61,8 +61,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -73,8 +73,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -95,8 +95,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 5,
@@ -112,8 +112,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 5,
@@ -124,8 +124,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -141,8 +141,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -158,8 +158,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -175,8 +175,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {

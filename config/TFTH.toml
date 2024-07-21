@@ -288,15 +288,15 @@
 		#Despawn time in seconds
 		#Default values 300
 		#Range: > 0
-		"Despawn Timer:" = 300
+		"Despawn Timer:" = 180
 		#Maximum Embryo Mobs
 		#Default values 60
 		#Range: > 0
-		"Max Embryo Mobs" = 45
+		"Max Embryo Mobs" = 10
 		#Maximum Enlightened Mobs
 		#Default values 45
 		#Range: > 0
-		"Max Enlightened Mobs" = 45
+		"Max Enlightened Mobs" = 10
 
 		["MOB SETTINGS"."DESPAWN MOBS"."EMBRYO DESPAWN PRIORITY"]
 			#This is the priority of the mobs. Lower number mobs will be despawned first

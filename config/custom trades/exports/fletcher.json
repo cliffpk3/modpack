@@ -1,12 +1,12 @@
 {
   "profession": "minecraft:fletcher",
-  "removeOtherTrades": false,
-  "maxTrades": 2,
+  "removeOtherTrades": true,
+  "maxTrades": 16,
   "trades": [
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -27,8 +27,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "tradeExp": 1,
@@ -44,8 +44,8 @@
         "priceModifier": 0
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "additionalRequest": {
@@ -61,8 +61,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -84,8 +84,8 @@
         "advancedNBTData": "{Damage:0}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 200,
         "priceModifier": 0
       },
       "tradeExp": 5,
@@ -96,8 +96,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -119,8 +119,8 @@
         "advancedNBTData": "{Damage:0}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 3,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 300,
         "priceModifier": 0
       },
       "tradeExp": 10,
@@ -131,8 +131,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -151,11 +151,11 @@
         "itemKey": "minecraft:bow",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:power\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:1s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:unbreaking\",lvl:2s}]}"
       },
       "request": {
         "itemKey": "minecraft:emerald",
-        "amount": 12,
+        "amount": 17,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -166,8 +166,8 @@
     },
     {
       "offer": {
-        "itemKey": "minecraft:emerald",
-        "amount": 1,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 100,
         "priceModifier": 0
       },
       "request": {
@@ -186,11 +186,11 @@
         "itemKey": "minecraft:crossbow",
         "amount": 1,
         "priceModifier": 0,
-        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:multishot\",lvl:1s}]}"
+        "advancedNBTData": "{Damage:0,Enchantments:[{id:\"minecraft:piercing\",lvl:1s}]}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 22,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 800,
         "priceModifier": 0
       },
       "tradeExp": 15,
@@ -207,8 +207,8 @@
         "advancedNBTData": "{Potion:\"minecraft:turtle_master\"}"
       },
       "request": {
-        "itemKey": "minecraft:emerald",
-        "amount": 2,
+        "itemKey": "minecraft:gold_nugget",
+        "amount": 200,
         "priceModifier": 0
       },
       "additionalRequest": {

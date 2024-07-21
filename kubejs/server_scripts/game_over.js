@@ -42,7 +42,7 @@ PlayerEvents.respawned(event => {
 //	event.cancel()
 //});
 
-ItemEvents.foodEaten('minecraft:golden_apple', event => {
+ItemEvents.foodEaten('zombie_extreme:syringe_stimulator', event => {
 	let player = event.player			
 	let playername = player.getName().getString();	
 	
