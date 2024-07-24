@@ -1137,7 +1137,7 @@
 		#This can be higher than 100% if you want multiple per chunk.
 		"Chance Per Chunk" = 0.3
 		"Min Y" = -50
-		"Max Y" = 0
+		"Max Y" = 30
 		"Min Mob Count" = 5
 		"Max Mob Count" = 8
 		"Enable Extra Loot Table" = true

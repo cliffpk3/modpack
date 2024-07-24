@@ -1,0 +1,17 @@
+
+#Minimum distance mobs will spawn away from players
+[distanceConfig]
+	distant = 80
+
+#Minimum height mobs will spawn above or below players
+[heightConfig]
+	height = 30
+
+#Frequency (in seconds) for chat information updates
+[frequencyConfig]
+	frequencyChat = 240
+
+#Frequency (in seconds) for mob despawn
+[frequencyDespawn]
+	frequencyDespawn = 120
+
