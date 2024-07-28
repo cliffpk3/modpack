@@ -2,6 +2,7 @@
 config/*.logs
 config/*.logs.gz
 git-bash.exe.*
+kubejs/documentation/index.html
 logs/*
 mods/alexscaves-1.1.4.jar
 mods/AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar
