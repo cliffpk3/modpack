@@ -149,10 +149,10 @@
 	"Difficulty Steal AI" = 0.0
 	#Chance for mobs to be able to summon an aquatic mount
 	#Range: 0.0 ~ 1.0
-	"Guardian Chance" = 0.1
+	"Guardian Chance" = 0.03
 	#Chance for mobs to be able to summon a flying mount
 	#Range: 0.0 ~ 1.0
-	"Phantom Chance" = 0.1
+	"Phantom Chance" = 0.03
 	#By default mobs can only break the block they can harvest with the current tool they holding. Set this to true to disable that check (The block will not drop if they cant harvest it though!).
 	"Ignore Harvest Check" = false
 	#Set this to true to allow tnt thrown by mobs to destroy blocks
@@ -176,10 +176,10 @@
 	"Entity Item Use Blacklist" = ["minecraft:drowned;TRIDENT", "minecraft:illusioner;BOW", "minecraft:piglin;CROSSBOW", "minecraft:pillager;CROSSBOW", "minecraft:skeleton;BOW", "minecraft:snow_golem;minecraft:snowball", "minecraft:stray;BOW", "minecraft:wither_skeleton;BOW"]
 	#Base chance that a mob can have one piece of armor
 	#Range: 0.0 ~ 1.0
-	"Equipment Chance" = 0.25
+	"Equipment Chance" = 0.05
 	#Base chance for each additional armor pieces
 	#Range: 0.0 ~ 1.0
-	"Additional Equipment Chance" = 0.3
+	"Additional Equipment Chance" = 0.1
 	#Adds additional x*difficulty% to base equip chance
 	#Range: 0.0 ~ 1.7976931348623157E308
 	"Equipment Addition" = 0.3
@@ -188,7 +188,7 @@
 	"Weapon Chance" = 0.15
 	#Adds additional x*difficulty% to base weapon chance
 	#Range: 0.0 ~ 1.7976931348623157E308
-	"Weapon Chance Add" = 0.3
+	"Weapon Chance Add" = 0.05
 	#Base chance for each armor pieces to get enchanted
 	#Range: 0.0 ~ 1.0
 	"Enchanting Chance" = 0.05

@@ -34,13 +34,13 @@
           "type": "minecraft:tag",
           "name": "special_drops:common_special_drops",
           "expand": true,
-          "weight": 30
+          "weight": 20
         }
       ],
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.8
+          "chance": 0.3
         }
       ]
     }

@@ -29,7 +29,7 @@
 	picked_entity = false
 	#Entities blacklisted from showing any plaques.
 	#Format for every entry is "<namespace>:<path>". Tags are supported, must be in the format of "#<namespace>:<path>". Namespace may be omitted to use "minecraft" by default. May use asterisk as wildcard parameter via pattern matching, e.g. "minecraft:*_shulker_box" to match all shulker boxes no matter of color. Begin an entry with "!" to make sure it is excluded, useful e.g. when it has already been matched by another pattern.
-	mob_blacklist = ["minecraft:armor_stand"]
+	mob_blacklist = ["minecraft:armor_stand", "artifacts:mimic"]
 	#Custom scale for rendering plaques.
 	#Range: 0.05 ~ 2.0
 	plaque_scale = 0.5
