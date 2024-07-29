@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Specification-Title: dungeons_arise
+Specification-Vendor: dungeons_arisesareus
+Specification-Version: 1
+Implementation-Title: WhenDungeonsArise-Forge-1.19
+Implementation-Version: 2.1.58
+Implementation-Vendor: dungeons_arisesareus
+Implementation-Timestamp: 2023-12-26T03:23:29-0300
+

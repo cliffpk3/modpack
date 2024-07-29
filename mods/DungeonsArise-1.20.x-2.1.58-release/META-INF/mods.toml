@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[41,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="dungeons_arise"
+version="2.1.58-1.20.x"
+displayName="When Dungeons Arise"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/when-dungeons-arise"
+logoFile="wda_logo.png"
+credits="Special thanks to MercyWhistles and Wyll for their contributions!"
+authors="Aurelj, DiamondTown and Zephyrusj"
+description='''
+Elegant - and likely dangerous - structures and roguelike dungeons to lose yourself in...
+'''
+
+[[dependencies.dungeons_arise]] #optional
+modId="forge"
+mandatory=true
+versionRange="[46,)"
+ordering="NONE"
+side="SERVER"
+
+[[dependencies.dungeons_arise]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20, 1.21)"
+ordering="NONE"
+side="SERVER"

@@ -4,7 +4,7 @@
         "hostile": true,
         "when":"onjoin",
         "mincount": {
-          "amount": 20,
+          "amount": 40,
           "hostile": true,
           "perplayer": true
         },
@@ -19,8 +19,21 @@
         "healthmultiply": 0.5,
         "speedmultiply": 0.6,
         "armormultiply": 0.3,
+        "damagemultiply": 0.9,
         "result":"default"
-    }  
+    },
+    {
+        "phase":"first",
+        "random": 0.3,
+        "mob":"minecraft:zombie",
+        "when":"onjoin",
+        "healthmultiply": 0.5,
+        "speedmultiply": 0.6,
+        "armormultiply": 0.3,
+        "damagemultiply": 0.6,
+        "result":"default"
+    }
+
 //   {
 //
 //       "hostile":true,

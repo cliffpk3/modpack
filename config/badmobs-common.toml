@@ -10135,13 +10135,13 @@
 	#Spawning options for born_in_chaos_v1:corpse_fish
 	[born_in_chaos_v1.corpse_fish]
 		#Should the entity be allowed to spawn normally?
-		allowNormalSpawning = true
+		allowNormalSpawning = false
 		#Should spawners be able to spawn the entity?
 		allowSpawners = true
 		#Should spawn eggs be able to spawn the entity?
 		allowSpawnEggs = true
 		#Should the entity spawn via mob conversion? i.e. villager -> zombie
-		allowConversions = true
+		allowConversions = false
 
 	#Spawning options for born_in_chaos_v1:zombie_fisherman
 	[born_in_chaos_v1.zombie_fisherman]

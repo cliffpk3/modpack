@@ -52,7 +52,7 @@
 		angerHostileMobs = true
 		#Any mobs within a sphere of this radius will aggro on the shooter of an unsilenced gun.
 		#Range: 0.0 ~ 1.7976931348623157E308
-		unsilencedRange = 20.0
+		unsilencedRange = 60.0
 		#Any mobs of defined will not aggro on shooters
 		exemptMobs = []
 

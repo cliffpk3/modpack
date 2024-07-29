@@ -14118,6 +14118,50 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -104645006802200,
+          "name": "CavesAndCliffsAddOnForWilliamWythersOverhauledOverworld-1.4",
+          "favorite": false,
+          "version": {
+            "id": -104645031266900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4b73d28ed7e48da452964ce9e1e71396efeb7f68",
+              "size": 412210,
+              "path": "mods/CavesAndCliffsAddOnForWilliamWythersOverhauledOverworld-1.4.jar",
+              "url": "mods/CavesAndCliffsAddOnForWilliamWythersOverhauledOverworld-1.4.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -104645032962900,
+          "name": "incontrol-1.20-9.2.6",
+          "favorite": false,
+          "version": {
+            "id": -104645043358500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "bcecd9862bd3048f979f05d394e413b230745986",
+              "size": 319212,
+              "path": "mods/incontrol-1.20-9.2.6.jar",
+              "url": "mods/incontrol-1.20-9.2.6.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
