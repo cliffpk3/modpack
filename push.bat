@@ -39,7 +39,7 @@ echo Concluído a procura por arquivos grandes.
 powershell -command "(Get-Content .gitignore) -replace '\\', '/' | Set-Content .gitignore"
 if %errorlevel% neq 0 (
     echo Erro ao converter barras no .gitignore
-    pause    
+    
     exit /b %errorlevel%
 )
 echo Barras convertidas no .gitignore.
@@ -48,51 +48,22 @@ echo Barras convertidas no .gitignore.
 powershell -command "Get-Content .gitignore | Sort-Object | Get-Unique | Set-Content .gitignore"
 if %errorlevel% neq 0 (
     echo Erro ao ordenar o .gitignore
-    pause    
+    
     exit /b %errorlevel%
 )
 echo Duplicatas removidas e .gitignore ordenado.
 
 
 git add .gitignore
-if %errorlevel% neq 0 (
-    echo Erro ao adicionar .gitignore ao Git
-    pause    
-    exit /b %errorlevel%
-)
+
 git commit -m "GitIgnore %currentDateTime%"
-if %errorlevel% neq 0 (
-    echo Erro ao fazer commit do .gitignore
-    pause    
-    exit /b %errorlevel%
-)
+
 git push --force
-if %errorlevel% neq 0 (
-    echo Erro ao fazer push do .gitignore
-    pause    
-    exit /b %errorlevel%
-)
+
 echo Commit e push do .gitignore concluídos.
 
-
 git add .
-if %errorlevel% neq 0 (
-    echo Erro ao adicionar mudanças ao Git
-    pause    
-    exit /b %errorlevel%
-)
-git commit -m "%currentDateTime%"
-if %errorlevel% neq 0 (
-    echo Erro ao fazer commit das mudanças
-    pause    
-    exit /b %errorlevel%
-)
-git push --force
-if %errorlevel% neq 0 (
-    echo Erro ao fazer push das mudanças
-    pause
-    exit /b %errorlevel%
-)
-echo Commit e push das mudanças concluídos.
 
-pause
+git commit -m "%currentDateTime%"
+
+git push --force
