@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: dungeons_arise_seven_seas
-Specification-Vendor: dungeons_arise_seven_seassareus
-Specification-Version: 1
-Implementation-Title: WhenDungeonsArise-SevenSeas-Forge
-Implementation-Version: 1.0.2
-Implementation-Vendor: dungeons_arise_seven_seassareus
-Implementation-Timestamp: 2023-12-24T19:14:17-0300
-

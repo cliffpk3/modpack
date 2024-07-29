@@ -1,12 +1,18 @@
 [
     {
+        "mob":"born_in_chaos_v1:maggot",
+        "when":"onjoin",
+        "damagemultiply": 0.5,
+        "result":"default"
+    },    
+    {
         "dimension": "minecraft:overworld",
         "hostile": true,
         "when":"onjoin",
         "mincount": {
-          "amount": 40,
-          "hostile": true,
-          "perplayer": true
+            "amount": 40,
+            "hostile": true,
+            "perplayer": true
         },
         "result": "deny"
     },    

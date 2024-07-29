@@ -14162,6 +14162,28 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -252402839344300,
+          "name": "cleanswing-1.20-1.5",
+          "favorite": false,
+          "version": {
+            "id": -252402841740100,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "eafe4e462b786f87ea18452763fe3f946cc1efbc",
+              "size": 8794,
+              "path": "mods/cleanswing-1.20-1.5.jar",
+              "url": "mods/cleanswing-1.20-1.5.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
