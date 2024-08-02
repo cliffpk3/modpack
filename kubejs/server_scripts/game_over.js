@@ -21,6 +21,7 @@ PlayerEvents.respawned(event => {
 	player.runCommandSilent(`effect give ${playername} minecraft:regeneration 60 4`);
 	player.runCommandSilent(`effect give ${playername} minecraft:resistance 60 4`);
 	player.runCommandSilent(`effect give ${playername} hordes:immunity 60 4`);	
+	player.runCommandSilent(`effect give ${playername} minecraft:glowing infinite 1`);		
 });
 
 

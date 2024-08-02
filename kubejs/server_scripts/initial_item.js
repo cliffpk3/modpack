@@ -206,6 +206,7 @@ PlayerEvents.loggedIn(event => {
         player.give(artifactBundle);
 		player.runCommandSilent(`effect give ${playername} minecraft:regeneration 60 3`);
 		player.runCommandSilent(`effect give ${playername} minecraft:resistance 60 3`);		
+		player.runCommandSilent(`effect give ${playername} minecraft:glowing infinite 1`);		        
     }
 });
 

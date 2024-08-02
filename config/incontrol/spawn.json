@@ -1,11 +1,5 @@
 [
     {
-        "mob":"born_in_chaos_v1:maggot",
-        "when":"onjoin",
-        "damagemultiply": 0.5,
-        "result":"default"
-    },    
-    {
         "dimension": "minecraft:overworld",
         "hostile": true,
         "when":"onjoin",
@@ -19,26 +13,32 @@
     {
         "phase":"first",
         "seesky": true,
-        "random": 0.8,
         "mob":"minecraft:zombie",
         "when":"onjoin",
-        "healthmultiply": 0.5,
+        "healthmultiply": 0.6,
         "speedmultiply": 0.6,
-        "armormultiply": 0.3,
-        "damagemultiply": 0.9,
-        "result":"default"
-    },
-    {
-        "phase":"first",
-        "random": 0.3,
-        "mob":"minecraft:zombie",
-        "when":"onjoin",
-        "healthmultiply": 0.5,
-        "speedmultiply": 0.6,
-        "armormultiply": 0.3,
+        "armormultiply": 0.1,
         "damagemultiply": 0.6,
         "result":"default"
-    }
+    },
+//    {
+//        "phase":"first",
+//        "random": 0.3,
+//        "mob":"minecraft:zombie",
+//        "when":"onjoin",
+//        "healthmultiply": 0.5,
+//        "speedmultiply": 0.6,
+//        "armormultiply": 0.3,
+//        "damagemultiply": 0.6,
+//        "result":"default"
+//    },
+    {
+        "mob":"born_in_chaos_v1:maggot",
+        "when":"onjoin",
+        "damagemultiply": 0.5,
+        "healthmultiply": 0.5,        
+        "result":"default"
+    }    
 
 //   {
 //

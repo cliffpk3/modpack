@@ -501,10 +501,10 @@
 	[Mobs.Spawning]
 		#How far away from any player monsters will instantly despawn? Vanilla is 128
 		#Range: 0 ~ 128
-		"Monsters Despawning Distance" = 35
+		"Monsters Despawning Distance" = 40
 		#How far away from any player monsters will be able to randomly despawn? Vanilla is 32
 		#Range: 0 ~ 128
-		"Min Monsters Despawning Distance" = 20
+		"Min Monsters Despawning Distance" = 30
 
 	#Makes mobs ride other mobs
 	[Mobs.Riding]
