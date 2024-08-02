@@ -11,8 +11,8 @@
     "conditions": {
       "dimension": "minecraft:overworld",
       "norestrictions": true,
-      "mindist": 30,
-      "maxdist": 35,
+      "mindist": 35,
+      "maxdist": 40,
       "minheight": 15,
       "maxheight": 200,
       "maxthis": 5

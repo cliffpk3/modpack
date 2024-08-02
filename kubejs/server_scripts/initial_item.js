@@ -149,37 +149,63 @@ const rankC = [
     'nameless_trinkets:fractured_nullstone',
     'nameless_trinkets:miners_soul'
 ];
-
 PlayerEvents.loggedIn(event => {
-    // Check if the player is joining for the first time
+    // Verifique se o jogador está entrando pela primeira vez
     if (!event.player.stages.has('first_join')) {
-        // Grant the player their first join rewards
-        let player = event.player
+        // Conceda as recompensas de primeira entrada ao jogador
+        let player = event.player;
 
-        // Mark the player as having received the first join rewards
-        player.stages.add('first_join')
+        // Marque o jogador como tendo recebido as recompensas de primeira entrada
+        player.stages.add('first_join');
 
-        // Create a bundle and add items to it
+        // Lista de itens possíveis para substituir a stone sword
+        let stoneWeapons = [
+            'divine_weaponry:stone_dagger',
+            'divine_weaponry:stone_sickle',
+            'divine_weaponry:stone_glaive',
+            'divine_weaponry:stone_katana',
+            'divine_weaponry:stone_spear',
+            'divine_weaponry:stone_longsword',
+            'divine_weaponry:stone_battleaxe',
+            'divine_weaponry:stone_hammer',
+            'divine_weaponry:stone_scythe',
+            'divine_weaponry:stone_cutlass',
+            'divine_weaponry:stone_rapier',
+            'minecraft:stone_sword',
+            'minecraft:bow'
+        ];
+
+        // Selecione um item aleatório da lista
+        let randomStoneWeapon = stoneWeapons[Math.floor(Math.random() * stoneWeapons.length)];
+
+        // Itens básicos do bundle
+        let bundleItems = [
+            {id: 'minecraft:stone_pickaxe', Count: 1},
+            {id: 'minecraft:stone_axe', Count: 1},
+            {id: 'minecraft:stone_shovel', Count: 1},
+            {id: randomStoneWeapon, Count: 1},
+            {id: 'minecraft:torch', Count: 8},
+            {id: 'minecraft:bread', Count: 9}
+        ];
+
+        // Adicione 120 flechas se o item aleatório for um arco
+        if (randomStoneWeapon === 'minecraft:bow') {
+            bundleItems.push({id: 'minecraft:arrow', Count: 120});
+        }
+
+        // Crie um bundle e adicione itens a ele
         let bundle = Item.of('minecraft:bundle', {
-            Items: [
-                {id: 'minecraft:stone_pickaxe', Count: 1},
-                {id: 'minecraft:stone_axe', Count: 1},
-                {id: 'minecraft:stone_shovel', Count: 1},
-                {id: 'minecraft:stone_sword', Count: 1},
-                {id: 'minecraft:torch', Count: 8},
-                {id: 'minecraft:bread', Count: 9}
-            ],
-			display:{Name: '{"text":"Basic Bundle"}'}
-			}
-        );
+            Items: bundleItems,
+            display: {Name: '{"text":"Basic Bundle"}'}
+        });
 
-        // Add the bundle to the player's inventory
-        player.give(bundle)
+        // Adicione o bundle ao inventário do jogador
+        player.give(bundle);
 
-        // Generate a random number between 1 and 10
+        // Gere um número aleatório entre 1 e 10
         let randomNum = Math.floor(Math.random() * 10) + 1;
         let randomItem, bundleName;
-        
+
         if (randomNum === 1) {
             randomItem = rankS[Math.floor(Math.random() * rankS.length)];
             bundleName = '§4Rank S Bundle';
@@ -194,21 +220,23 @@ PlayerEvents.loggedIn(event => {
             bundleName = '§9Rank C Bundle';
         }
 
-        // Create the artifact bundle
+        // Crie o bundle de artefato
         let artifactBundle = Item.of('minecraft:bundle', {
             Items: [
                 {id: randomItem, Count: 1}
             ],
-            display:{Name: '{"text":"' + bundleName + '"}'}});
+            display: {Name: '{"text":"' + bundleName + '"}'}
+        });
 
-        // Add the artifact bundle to the player's inventory
-		let playername = player.getName().getString();			
+        // Adicione o bundle de artefato ao inventário do jogador
+        let playername = player.getName().getString();
         player.give(artifactBundle);
-		player.runCommandSilent(`effect give ${playername} minecraft:regeneration 60 3`);
-		player.runCommandSilent(`effect give ${playername} minecraft:resistance 60 3`);		
-		player.runCommandSilent(`effect give ${playername} minecraft:glowing infinite 1`);		        
+        player.runCommandSilent(`effect give ${playername} minecraft:regeneration 60 3`);
+        player.runCommandSilent(`effect give ${playername} minecraft:resistance 60 3`);
+        player.runCommandSilent(`effect give ${playername} minecraft:glowing infinite 1`);
     }
 });
+
 
 ServerEvents.tags('item', event => {
     // Categoria: Constructive Blocks

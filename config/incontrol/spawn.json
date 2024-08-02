@@ -4,7 +4,7 @@
         "hostile": true,
         "when":"onjoin",
         "mincount": {
-            "amount": 40,
+            "amount": 90,
             "hostile": true,
             "perplayer": true
         },
@@ -12,6 +12,7 @@
     },    
     {
         "phase":"first",
+        "random": 0.85,
         "seesky": true,
         "mob":"minecraft:zombie",
         "when":"onjoin",
