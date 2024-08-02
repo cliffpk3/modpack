@@ -1,7 +1,7 @@
 
 #Maximum distance mobs will spawn away from players
 [distanceConfig]
-	distant = 60
+	distant = 80
 
 #Maximum height mobs will spawn above or below players
 [heightConfig]
@@ -9,13 +9,21 @@
 
 #Frequency (in seconds) for chat information updates
 [frequencyConfig]
-	frequencyChat = 120
+	frequencyChat = 240
 
 #Frequency (in seconds) for mob despawn
 [frequencyDespawn]
-	frequencyDespawn = 120
+	frequencyDespawn = 60
 
-#Maximum number of Monster that can be spawned per player
+#Maximum number of Monster (only hostile mobs) that can be spawned per player
 [maxMonsterPerPlayer]
 	maxMonsterPerPlayer = 20
+
+#Mobs that will not spawn, example: mobs: ["minecraft:zombie", "minecraft:skeleton"]
+[mobsBlocked]
+	mobsBlocked = []
+
+#Mobs that will bypass all rules to spawn, example: mobs: ["minecraft:spider", "minecraft:creeper"]
+[mobsUnBlocked]
+	mobsUnBlocked = []
 

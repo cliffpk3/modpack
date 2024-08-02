@@ -1,15 +1,15 @@
 [
-    {
-        "dimension": "minecraft:overworld",
-        "hostile": true,
-        "when":"onjoin",
-        "mincount": {
-            "amount": 90,
-            "hostile": true,
-            "perplayer": true
-        },
-        "result": "deny"
-    },    
+//    {
+//        "dimension": "minecraft:overworld",
+//        "hostile": true,
+//        "when":"onjoin",
+//        "mincount": {
+//            "amount": 90,
+//            "hostile": true,
+//            "perplayer": true
+//        },
+//        "result": "deny"
+//    },    
     {
         "phase":"first",
         "random": 0.85,
