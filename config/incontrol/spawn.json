@@ -7,7 +7,7 @@
     },  
     {
         "phase":"first",
-        "random": 0.4,    
+        "random": 0.5,    
         "seesky": true,
         "hostile": true,
         "mod":["minecraft","born_in_chaos_v1","zombie_extreme","world_of_rot","creeperoverhaul"],
@@ -19,23 +19,23 @@
         "result":"default"
     },      
     {
+        "phase":"first",
+        "random": 0.3,    
+        "seesky": true,
+        "hostile": true,
+        "mod":["minecraft","born_in_chaos_v1","zombie_extreme","world_of_rot","creeperoverhaul"],
+        "when":"onjoin",
+        "healthmultiply": 0.6,
+        "speedmultiply": 0.6,
+        "armormultiply": 0.4,
+        "damagemultiply": 0.6,
+        "result":"default"
+    },    
+    {
         "mob":"born_in_chaos_v1:maggot",
         "when":"onjoin",
         "damagemultiply": 0.5,
         "healthmultiply": 0.5,        
         "result":"default"
-    },
-    {
-        "phase":"first",
-        "random": 0.4,    
-        "seesky": true,
-        "hostile": true,
-        "mod":["minecraft","born_in_chaos_v1","zombie_extreme","world_of_rot","creeperoverhaul"],
-        "when":"onjoin",
-        "healthmultiply": 0.8,
-        "speedmultiply": 0.8,
-        "armormultiply": 0.4,
-        "damagemultiply": 0.8,
-        "result":"default"
-    }          
+    }
 ]

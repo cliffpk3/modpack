@@ -17,7 +17,7 @@
 
 #Maximum number of Monster (only hostile mobs) that can be spawned per player
 [maxMonsterPerPlayer]
-	maxMonsterPerPlayer = 20
+	maxMonsterPerPlayer = 60
 
 #Mobs that will not spawn, example: mobs: ["minecraft:zombie", "minecraft:skeleton"]
 [mobsBlocked]
