@@ -1,15 +1,5 @@
 [
     {
-        "dimension": "minecraft:overworld",
-        "hostile":true,
-        "mincount": {
-          "amount": 90,
-          "hostile": true,
-          "perplayer": true
-        },
-        "result": "deny"
-    },
-    {
         "phase":"first",
         "hostile": true,
         "baby": true,
@@ -17,7 +7,7 @@
     },  
     {
         "phase":"first",
-        "random": 0.5,    
+        "random": 0.4,    
         "seesky": true,
         "hostile": true,
         "mod":["minecraft","born_in_chaos_v1","zombie_extreme","world_of_rot","creeperoverhaul"],
@@ -27,18 +17,18 @@
         "armormultiply": 0.4,
         "damagemultiply": 0.8,
         "result":"default"
-    },
+    },      
     {
         "phase":"first",
-        "random": 0.3,    
+        "random": 0.4,    
         "seesky": true,
         "hostile": true,
         "mod":["minecraft","born_in_chaos_v1","zombie_extreme","world_of_rot","creeperoverhaul"],
         "when":"onjoin",
-        "healthmultiply": 0.6,
-        "speedmultiply": 0.6,
+        "healthmultiply": 0.8,
+        "speedmultiply": 0.8,
         "armormultiply": 0.4,
-        "damagemultiply": 0.6,
+        "damagemultiply": 0.8,
         "result":"default"
     },    
     {
@@ -48,11 +38,5 @@
         "healthmultiply": 0.5,        
         "result":"default"
     },
-    {
-        "mob":"world_of_rot:crawler",
-        "when":"onjoin",
-        "speedmultiply": 0.5,
-        "healthmultiply": 0.5,        
-        "result":"default"
-    }    
+
 ]

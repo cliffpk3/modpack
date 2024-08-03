@@ -38,7 +38,7 @@
 			#Range: 0 ~ 10000
 			stamina_consumption_of_ClimbPoles = 0
 			#Range: 0 ~ 10000
-			stamina_consumption_of_ClimbUp = 150
+			stamina_consumption_of_ClimbUp = 300
 			#Range: 0 ~ 10000
 			stamina_consumption_of_ClingToCliff = 2
 			#Range: 0 ~ 10000
@@ -48,7 +48,7 @@
 			#Range: 0 ~ 10000
 			stamina_consumption_of_Dodge = 80
 			#Range: 0 ~ 10000
-			stamina_consumption_of_FastRun = 2
+			stamina_consumption_of_FastRun = 21
 			#Range: 0 ~ 10000
 			stamina_consumption_of_FastSwim = 3
 			#Range: 0 ~ 10000
