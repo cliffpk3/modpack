@@ -3,7 +3,7 @@
   "hud": {
     "distance": 60,
     "x": 2.0,
-    "y": 16.0,
+    "y": 24.0,
     "scale": 0.8,
     "hideDelay": 20,
     "anchorPoint": "UPPER_LEFT",

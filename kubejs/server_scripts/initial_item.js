@@ -165,7 +165,7 @@ PlayerEvents.loggedIn(event => {
             'divine_weaponry:stone_glaive',
             'divine_weaponry:stone_katana',
             'divine_weaponry:stone_spear',
-            'divine_weaponry:stone_longsword',
+            //'divine_weaponry:stone_longsword',
             'divine_weaponry:stone_battleaxe',
             'divine_weaponry:stone_hammer',
             'divine_weaponry:stone_scythe',

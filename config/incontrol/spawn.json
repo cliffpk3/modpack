@@ -1,113 +1,41 @@
 [
-//    {
-//        "dimension": "minecraft:overworld",
-//        "hostile": true,
-//        "when":"onjoin",
-//        "mincount": {
-//            "amount": 40,
-//            "hostile": true,
-//            "perplayer": true
-//        },
-//        "result": "deny"
-//    },    
-//    {
-//        "phase":"first",
-//        "random": 0.85,
-//        "seesky": true,
-//        "mob": "minecraft:zombie",
-//        "when":"onjoin",
-//        "healthmultiply": 0.6,
-//        "speedmultiply": 0.6,
-//        "armormultiply": 0.1,
-//        "damagemultiply": 0.6,
-//        "result":"default",
-//        "customname": "rule1mob"
-//    },  
     {
         "phase":"first",
-        "random": 0.5,    
+        "hostile": true,
+        "baby": true,
+        "result":"deny"
+    },  
+    {
+        "phase":"first",
+        "random": 0.4,    
         "seesky": true,
+        "hostile": true,
         "mod":["minecraft","born_in_chaos_v1","zombie_extreme","world_of_rot","creeperoverhaul"],
         "when":"onjoin",
         "healthmultiply": 0.8,
         "speedmultiply": 0.8,
         "armormultiply": 0.4,
         "damagemultiply": 0.8,
-        "result":"default",
-        "customname": "rule1mob"
-    },  
-    {
-        "phase":"first",
-        "random": 0.5,
-        "seesky": true,
-        "mod":"minecraft",
-        "when":"onjoin",
-        "healthmultiply": 0.6,
-        "speedmultiply": 0.6,
-        "armormultiply": 0.1,
-        "damagemultiply": 0.6,
-        "result":"default",
-        "customname": "rule2mob"
-    },  
+        "result":"default"
+    },      
     {
         "mob":"born_in_chaos_v1:maggot",
         "when":"onjoin",
         "damagemultiply": 0.5,
         "healthmultiply": 0.5,        
         "result":"default"
-    }    
-
-//   {
-//
-//       "hostile":true,
-//       "when":"onjoin",
-//       "result":"default"
-//   }
-
-////{
-////"dimension": "minecraft:overworld",
-////"hostile": true,
-////"mincount": {
-////  "amount": 30,
-////  "hostile": true,    
-////  "perplayer": true
-////},
-////"result": "deny"
-////},
-//{
-//"mod": ["zombie_extreme","born_in_chaos_v1","mutantmonsters"],
-//"when": "onjoin",
-//"result": "deny"
-//},
-////{
-////"mod": ["zombie_extreme","born_in_chaos_v1","mutantmonsters"],
-////"when": "onjoin",
-////"result": "allow",
-////"followrangemultiply": 1.2,
-////"maxheight": 0
-////,"customname": "mobrule1"
-////},
-//{
-//"hostile": true,
-//"seesky": false, 
-//"when": "onjoin",
-//"result": "default"
-//},
-//{
-//"hostile": true,
-//"seesky": false, 
-//"when": "onjoin",
-//"result": "allow"
-//},
-//{
-
-
-//{
-//    "seesky": false,
-//    "random": 0.2,
-//    "when": "finalize",
-//    "mob": "minecraft:zombie",
-//    "result": "allow",
-//    "healthmultiply": 0.5
-//}
+    },
+    {
+        "phase":"first",
+        "random": 0.4,    
+        "seesky": true,
+        "hostile": true,
+        "mod":["minecraft","born_in_chaos_v1","zombie_extreme","world_of_rot","creeperoverhaul"],
+        "when":"onjoin",
+        "healthmultiply": 0.8,
+        "speedmultiply": 0.8,
+        "armormultiply": 0.4,
+        "damagemultiply": 0.8,
+        "result":"default"
+    }          
 ]
