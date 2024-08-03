@@ -67,3 +67,5 @@ git add .
 git commit -m "%currentDateTime%"
 
 git push --force
+
+pause

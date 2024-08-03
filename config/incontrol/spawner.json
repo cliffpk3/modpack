@@ -2,10 +2,10 @@
   {
     "mob": "minecraft:zombie",
     "persecond": 0.5,
-    "attempts": 7,
+    "attempts": 3,
     "weights": 6,
     "amount": {
-      "minimum": 1,
+      "minimum": 0,
       "maximum": 1
     },
     "conditions": {

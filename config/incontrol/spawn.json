@@ -4,7 +4,7 @@
 //        "hostile": true,
 //        "when":"onjoin",
 //        "mincount": {
-//            "amount": 90,
+//            "amount": 40,
 //            "hostile": true,
 //            "perplayer": true
 //        },
@@ -12,27 +12,28 @@
 //    },    
     {
         "phase":"first",
-        "random": 0.85,
         "seesky": true,
         "mob":"minecraft:zombie",
+        "when":"onjoin",
+        "healthmultiply": 0.7,
+        "speedmultiply": 0.8,
+        "armormultiply": 0.3,
+        "damagemultiply": 0.8,
+        "result":"default"
+    },  
+    {
+        "phase":"first",
+        "random": 0.65,
+        "seesky": true,
+        "hostile": true,
+        //"mob":"minecraft:zombie",
         "when":"onjoin",
         "healthmultiply": 0.6,
         "speedmultiply": 0.6,
         "armormultiply": 0.1,
         "damagemultiply": 0.6,
         "result":"default"
-    },
-//    {
-//        "phase":"first",
-//        "random": 0.3,
-//        "mob":"minecraft:zombie",
-//        "when":"onjoin",
-//        "healthmultiply": 0.5,
-//        "speedmultiply": 0.6,
-//        "armormultiply": 0.3,
-//        "damagemultiply": 0.6,
-//        "result":"default"
-//    },
+    },  
     {
         "mob":"born_in_chaos_v1:maggot",
         "when":"onjoin",
