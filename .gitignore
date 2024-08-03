@@ -1,4 +1,5 @@
 *.batmods/alexscaves-1.1.4.jar
+config.rar
 config/*.logs
 config/*.logs.gz
 essential/Essential (forge_1.20.1).jar
