@@ -18,9 +18,9 @@ PlayerEvents.respawned(event => {
 //	player.persistentData.putInt("customHealth", newHealth);
 //	//player.tell(`HP reduzido para ${newHealth/2}!`);
 //	player.runCommandSilent(`title ${playername} title {"text":"${newHealth/2}${heartIcon}!","bold":false,"color":"#D62828"}`);
-	player.runCommandSilent(`effect give ${playername} minecraft:regeneration 60 4`);
-	player.runCommandSilent(`effect give ${playername} minecraft:resistance 60 4`);
-	player.runCommandSilent(`effect give ${playername} hordes:immunity 60 4`);	
+	player.runCommandSilent(`effect give ${playername} minecraft:regeneration 20 4`);
+	player.runCommandSilent(`effect give ${playername} minecraft:resistance 20 4`);
+	player.runCommandSilent(`effect give ${playername} hordes:immunity 20 4`);	
 	player.runCommandSilent(`effect give ${playername} minecraft:glowing infinite 1`);		
 });
 

@@ -20,7 +20,7 @@
   }
 //  {
 //    "mob": ["wrd:undead_spider","minecraft:skeleton","minecraft:zombie","alexsmobs:rocky_roller","wrd:ender_miner","wrd:buff_zombie","alexsmobs:underminder"],
-//    "persecond": 120,
+//    "persecond": 0.7,
 //    "attempts": 2,
 //    "amount": {
 //      "minimum": 1,
@@ -37,7 +37,7 @@
 //  },  
 //  {
 //    "mob": ["minecraft:wither_skeleton", "realmrpg_demons:demon", "alexscaves:underzealot", "quark:forgotten","realmrpg_demons:imp","realmrpg_demons:demon_minion","realmrpg_demons:imp_guard"],
-//    "persecond": 120,
+//    "persecond": 0.8,
 //    "attempts": 1,
 //    "amount": {
 //      "minimum": 0,
@@ -54,7 +54,7 @@
 //  },
 //  {
 //    "mob": ["wrd:bait_snapper"],
-//    "persecond": 120,
+//    "persecond": 0.8,
 //    "attempts": 2,
 //    "amount": {
 //      "minimum": 1,
@@ -71,7 +71,7 @@
 //  },    
 //  {
 //    "mob": ["alexscaves:watcher","wrd:buff_zombie","zombie_extreme:ram","zombie_extreme:night_hunter","zombie_extreme:demolisher","zombie_extreme:divided"],
-//    "persecond": 120,
+//    "persecond": 0.8,
 //    "attempts": 1,
 //    "amount": {
 //      "minimum": 1,
@@ -88,7 +88,7 @@
 //  },
 //  {
 //    "mob": ["mutantmonsters:mutant_skeleton", "mutantmonsters:mutant_zombie", "realmrpg_demons:demon_lord","zombie_extreme:zero_patient","born_in_chaos_v1:scarlet_persecutor"],
-//    "persecond": 120,
+//    "persecond": 0.8,
 //    "attempts": 1,
 //    "amount": {
 //      "minimum": 1,

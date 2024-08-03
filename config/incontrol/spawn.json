@@ -1,5 +1,15 @@
 [
     {
+        "dimension": "minecraft:overworld",
+        "hostile":true,
+        "mincount": {
+          "amount": 90,
+          "hostile": true,
+          "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
         "phase":"first",
         "hostile": true,
         "baby": true,
@@ -17,7 +27,7 @@
         "armormultiply": 0.4,
         "damagemultiply": 0.8,
         "result":"default"
-    },      
+    },
     {
         "phase":"first",
         "random": 0.3,    
