@@ -207,7 +207,7 @@
 		stamina_consumption_of_WallSlide = 8
 		#Infinite Stamina (this needs a permission from server, even if it is on single player's game. normally permitted)
 		#Please check 'parcool-server.toml' in 'serverconfig' directory
-		infinite_stamina = true
+		infinite_stamina = false
 		#Infinite Stamina while player is cretive mode
 		infinite_stamina_if_creative_mode = true
 

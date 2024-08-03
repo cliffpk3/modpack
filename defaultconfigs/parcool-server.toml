@@ -1,7 +1,7 @@
 
 [Limitations]
 	#Whether these limitations will be imposed to players
-	limitation_imposed = false
+	limitation_imposed = true
 
 	[Limitations."Action Permissions"]
 		permit_BreakfallReady = true
@@ -78,7 +78,7 @@
 			#Range: 0 ~ 10000
 			stamina_consumption_of_WallSlide = 8
 			#Permission of infinite stamina
-			allow_infinite_stamina = true
+			allow_infinite_stamina = false
 			#Limitation of max stamina value
 			#Range: > 300
 			max_stamina_limit = 2147483647

@@ -44,7 +44,7 @@ PlayerEvents.respawned(event => {
 //	event.cancel()
 //});
 
-ItemEvents.foodEaten('zombie_extreme:syringe_stimulator', event => {
+ItemEvents.foodEaten('zombie_extreme:syringe_adrenaline', event => {
 	let player = event.player			
 	let playername = player.getName().getString();	
 	
@@ -52,3 +52,16 @@ ItemEvents.foodEaten('zombie_extreme:syringe_stimulator', event => {
 	
 	event.cancel()
 });	
+
+ServerEvents.recipes(event => {	
+
+	event.custom({
+        type: 'minecraft:crafting_shapeless',
+        ingredients: [
+            { item: 'zombie_extreme:syringe_drug' },
+            { item: 'minecraft:golden_apple' },	
+        ],
+        result: { item: 'zombie_extreme:syringe_adrenaline' }
+    });
+
+})

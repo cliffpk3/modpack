@@ -37,5 +37,12 @@
         "damagemultiply": 0.5,
         "healthmultiply": 0.5,        
         "result":"default"
-    }
+    },
+    {
+        "mob":"world_of_rot:crawler",
+        "when":"onjoin",
+        "speedmultiply": 0.5,
+        "healthmultiply": 0.5,        
+        "result":"default"
+    }    
 ]
