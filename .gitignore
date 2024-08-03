@@ -1,6 +1,7 @@
 *.batmods/alexscaves-1.1.4.jar
 config/*.logs
 config/*.logs.gz
+essential/Essential (forge_1.20.1).jar
 git-bash.exe.*
 kubejs/documentation/index.html
 logs/*
