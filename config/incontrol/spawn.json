@@ -10,29 +10,44 @@
 //        },
 //        "result": "deny"
 //    },    
+//    {
+//        "phase":"first",
+//        "random": 0.85,
+//        "seesky": true,
+//        "mob": "minecraft:zombie",
+//        "when":"onjoin",
+//        "healthmultiply": 0.6,
+//        "speedmultiply": 0.6,
+//        "armormultiply": 0.1,
+//        "damagemultiply": 0.6,
+//        "result":"default",
+//        "customname": "rule1mob"
+//    },  
     {
         "phase":"first",
+        "random": 0.5,    
         "seesky": true,
-        "mob":"minecraft:zombie",
+        "mod":["minecraft","born_in_chaos_v1","zombie_extreme","world_of_rot","creeperoverhaul"],
         "when":"onjoin",
-        "healthmultiply": 0.7,
+        "healthmultiply": 0.8,
         "speedmultiply": 0.8,
-        "armormultiply": 0.3,
+        "armormultiply": 0.4,
         "damagemultiply": 0.8,
-        "result":"default"
+        "result":"default",
+        "customname": "rule1mob"
     },  
     {
         "phase":"first",
-        "random": 0.65,
+        "random": 0.5,
         "seesky": true,
-        "hostile": true,
-        //"mob":"minecraft:zombie",
+        "mod":"minecraft",
         "when":"onjoin",
         "healthmultiply": 0.6,
         "speedmultiply": 0.6,
         "armormultiply": 0.1,
         "damagemultiply": 0.6,
-        "result":"default"
+        "result":"default",
+        "customname": "rule2mob"
     },  
     {
         "mob":"born_in_chaos_v1:maggot",
