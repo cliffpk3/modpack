@@ -7,10 +7,6 @@
 [heightConfig]
 	height = 20
 
-#Frequency (in seconds) for chat information updates
-[frequencyConfig]
-	frequencyChat = 30
-
 #Frequency (in seconds) for mob despawn
 [frequencyDespawn]
 	frequencyDespawn = 30

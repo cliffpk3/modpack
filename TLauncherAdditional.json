@@ -14184,6 +14184,314 @@
           "available": false,
           "parser": false,
           "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748905911979300,
+          "name": "adaptive_performance_tweaks_core_1.20.1-11.1.0",
+          "favorite": false,
+          "version": {
+            "id": -748905926381500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "c37d8461ed3ab63179da5c37281d0b8fff3cff6a",
+              "size": 109625,
+              "path": "mods/adaptive_performance_tweaks_core_1.20.1-11.1.0.jar",
+              "url": "mods/adaptive_performance_tweaks_core_1.20.1-11.1.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748905926560800,
+          "name": "adaptive_performance_tweaks_mods_1.20.1-10.0.0",
+          "favorite": false,
+          "version": {
+            "id": -748905938912000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "9a755344748e435188ef46bc01eca91b3956e81f",
+              "size": 77019,
+              "path": "mods/adaptive_performance_tweaks_mods_1.20.1-10.0.0.jar",
+              "url": "mods/adaptive_performance_tweaks_mods_1.20.1-10.0.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748905939074700,
+          "name": "adaptive_performance_tweaks_player_1.20.1-11.1.0",
+          "favorite": false,
+          "version": {
+            "id": -748905952245000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "3c4ee9fa7e10bc2986d6e3a65985c3e62ab46300",
+              "size": 66272,
+              "path": "mods/adaptive_performance_tweaks_player_1.20.1-11.1.0.jar",
+              "url": "mods/adaptive_performance_tweaks_player_1.20.1-11.1.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748905952415500,
+          "name": "advancedcompass.forge.1.20.1-1.2.15",
+          "favorite": false,
+          "version": {
+            "id": -748905965041600,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "07c3042d35fbb7fd1ecb1c78eb34fe2f213c4a2d",
+              "size": 496935,
+              "path": "mods/advancedcompass.forge.1.20.1-1.2.15.jar",
+              "url": "mods/advancedcompass.forge.1.20.1-1.2.15.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748905965512000,
+          "name": "avatar_spawncontrol-1.1.0",
+          "favorite": false,
+          "version": {
+            "id": -748906008647800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "c2d42bc340d699a91dca892fa8b38bda9f3ae9e0",
+              "size": 9658,
+              "path": "mods/avatar_spawncontrol-1.1.0.jar",
+              "url": "mods/avatar_spawncontrol-1.1.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748906008910000,
+          "name": "BetterThirdPerson-Forge-1.20-1.9.0",
+          "favorite": false,
+          "version": {
+            "id": -748906018158500,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0b0a3ff3b244fa191b3f9580547071dee46f7276",
+              "size": 61525,
+              "path": "mods/BetterThirdPerson-Forge-1.20-1.9.0.jar",
+              "url": "mods/BetterThirdPerson-Forge-1.20-1.9.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748906018322000,
+          "name": "bettervillage-forge-1.20.1-3.2.0",
+          "favorite": false,
+          "version": {
+            "id": -748906031991800,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "cc8cd793f9173812980580d8ba8f7e0046e2883c",
+              "size": 2019497,
+              "path": "mods/bettervillage-forge-1.20.1-3.2.0.jar",
+              "url": "mods/bettervillage-forge-1.20.1-3.2.0.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748906032656900,
+          "name": "createstuffadditionsfix-forge-1.20.1-0.0.0.1",
+          "favorite": false,
+          "version": {
+            "id": -748906088151200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "68e0c745c48f73e0815a90b1bbfccb69efc17c8e",
+              "size": 4880,
+              "path": "mods/createstuffadditionsfix-forge-1.20.1-0.0.0.1.jar",
+              "url": "mods/createstuffadditionsfix-forge-1.20.1-0.0.0.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748906088390800,
+          "name": "curios-forge-5.9.1+1.20.1",
+          "favorite": false,
+          "version": {
+            "id": -748906092709200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "d5698ca0e90adba53d0ca660a2dc0b79ac09504b",
+              "size": 382970,
+              "path": "mods/curios-forge-5.9.1+1.20.1.jar",
+              "url": "mods/curios-forge-5.9.1+1.20.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748906094783900,
+          "name": "MobsPropertiesRandomness-4.10.8-mc1.20.1",
+          "favorite": false,
+          "version": {
+            "id": -748906105945200,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "6dbd7efb4487442d0e084588abf0a37e66029cf9",
+              "size": 134271,
+              "path": "mods/MobsPropertiesRandomness-4.10.8-mc1.20.1.jar",
+              "url": "mods/MobsPropertiesRandomness-4.10.8-mc1.20.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748906107237000,
+          "name": "ScorchedGuns-0.1.4-1.20.1",
+          "favorite": false,
+          "version": {
+            "id": -748906128114900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "e43c6ca3a49d99e1921efe4d3c36e4c120767206",
+              "size": 4723173,
+              "path": "mods/ScorchedGuns-0.1.4-1.20.1.jar",
+              "url": "mods/ScorchedGuns-0.1.4-1.20.1.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748906128346100,
+          "name": "ServerTabInfo-1.20-1.3.8",
+          "favorite": false,
+          "version": {
+            "id": -748906137901900,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "4a7f87be6a109a4bcc503228534a64d87678dbc0",
+              "size": 103637,
+              "path": "mods/ServerTabInfo-1.20-1.3.8.jar",
+              "url": "mods/ServerTabInfo-1.20-1.3.8.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748906138151200,
+          "name": "sound-physics-remastered-forge-1.20.1-1.4.5",
+          "favorite": false,
+          "version": {
+            "id": -748906141674000,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "c524ea87f02a23b1b08aa4c43322ec018db90fd2",
+              "size": 196564,
+              "path": "mods/sound-physics-remastered-forge-1.20.1-1.4.5.jar",
+              "url": "mods/sound-physics-remastered-forge-1.20.1-1.4.5.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
+        },
+        {
+          "stateGameElement": "active",
+          "id": -748906141781400,
+          "name": "spawnbalanceutility-1.20-46.13.5",
+          "favorite": false,
+          "version": {
+            "id": -748906151084700,
+            "name": "1.0",
+            "metadata": {
+              "sha1": "0d655eb82722ef00040bc6a2b7038008cec3865c",
+              "size": 66001,
+              "path": "mods/spawnbalanceutility-1.20-46.13.5.jar",
+              "url": "mods/spawnbalanceutility-1.20-46.13.5.jar"
+            },
+            "available": false
+          },
+          "userInstall": true,
+          "populateStatus": false,
+          "available": false,
+          "parser": false,
+          "totalComments": 0
         }
       ],
       "resourcePacks": [
