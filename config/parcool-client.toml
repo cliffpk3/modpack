@@ -26,7 +26,7 @@
 
 ["Stamina HUD Configuration"]
 	#Allowed Values: Normal, Light, Hide
-	stamina_hud_type = "Normal"
+	stamina_hud_type = "Light"
 	#horizontal alignment
 	#Allowed Values: Left, Right
 	align_h_s_hud = "Right"

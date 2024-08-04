@@ -152,7 +152,7 @@
 	"Guardian Chance" = 0.03
 	#Chance for mobs to be able to summon a flying mount
 	#Range: 0.0 ~ 1.0
-	"Phantom Chance" = 0.03
+	"Phantom Chance" = 0.0
 	#By default mobs can only break the block they can harvest with the current tool they holding. Set this to true to disable that check (The block will not drop if they cant harvest it though!).
 	"Ignore Harvest Check" = false
 	#Set this to true to allow tnt thrown by mobs to destroy blocks

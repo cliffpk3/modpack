@@ -34,7 +34,7 @@
 			#Range: 0 ~ 10000
 			stamina_consumption_of_BreakfallReady = 0
 			#Range: 0 ~ 10000
-			stamina_consumption_of_CatLeap = 150
+			stamina_consumption_of_CatLeap = 250
 			#Range: 0 ~ 10000
 			stamina_consumption_of_ClimbPoles = 0
 			#Range: 0 ~ 10000
@@ -48,9 +48,9 @@
 			#Range: 0 ~ 10000
 			stamina_consumption_of_Dodge = 80
 			#Range: 0 ~ 10000
-			stamina_consumption_of_FastRun = 21
+			stamina_consumption_of_FastRun = 1
 			#Range: 0 ~ 10000
-			stamina_consumption_of_FastSwim = 3
+			stamina_consumption_of_FastSwim = 1
 			#Range: 0 ~ 10000
 			stamina_consumption_of_Flipping = 80
 			#Range: 0 ~ 10000
