@@ -7,6 +7,8 @@ git-bash.exe.*
 kubejs/documentation/index.html
 logs/*
 mods/alexscaves-1.1.4.jar
+mods/alexscaves-1.1.4.jar_
+mods/alexscaves-1.1.5.jar
 mods/AmbientSounds_FORGE_v6.0.3_mc1.20.1.jar
 mods/Wesley's+Roguelike+Dungeons+1.20.1-2.3.2.jar
 push.sh
