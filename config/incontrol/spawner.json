@@ -2,12 +2,12 @@
   //Summon Padrão de Zumbis
   {
     "mob": "minecraft:zombie",
-    "persecond": 0.5,
-    "attempts": 7,
+    "persecond": 0.2,
+    "attempts": 5,
     "weights": 6,
     "amount": {
-      "minimum": 1,
-      "maximum": 1
+      "minimum": 2,
+      "maximum": 4
     },
     "conditions": {
       "dimension": "minecraft:overworld",

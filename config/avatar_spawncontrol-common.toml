@@ -1,15 +1,15 @@
 
 #Maximum distance mobs will spawn away from players
 [distanceConfig]
-	distant = 80
+	distant = 120
 
 #Maximum height mobs will spawn above or below players
 [heightConfig]
-	height = 20
+	height = 30
 
 #Frequency (in seconds) for mob despawn
 [frequencyDespawn]
-	frequencyDespawn = 30
+	frequencyDespawn = 50
 
 #Maximum number of Monster (only hostile mobs) that can be spawned per player
 [maxMonsterPerPlayer]

@@ -67,6 +67,10 @@ buttonAlignment = "RIGHT"
 		#The maximum distance impact particles can be seen from the player
 		#Range: 0.0 ~ 64.0
 		impactParticleDistance = 32.0
+		#If true, particles will spawn when projectiles impact water
+		enableWaterImpactParticles = true
+		#If true, particles will spawn when projectiles impact lava
+		enableLavaImpactParticles = true
 
 	#Properties relating to controls
 	[client.controls]

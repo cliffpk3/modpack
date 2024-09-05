@@ -55,7 +55,12 @@
         "scguns:dissident",
         "scguns:hornlin",
         "scguns:blunderer",
-        "scguns:brass_bolt"], 
+        "scguns:brass_bolt",
+        "mutantmonsters:mutant_enderman",
+        "mutantmonsters:mutant_skeleton",
+        "mutantmonsters:mutant_zombie",
+        "mutantmonsters:mutant_creeper"
+    ], 
         "result": "deny"
     },
     {

@@ -8,6 +8,20 @@
         "entries": [
           {
             "type": "minecraft:item",
+            "name": "minecraft:gunpowder",
+            "weight": 3,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 6,
+                  "max": 24
+                }
+              }
+            ]
+          },          
+          {
+            "type": "minecraft:item",
             "name": "cgm:basic_bullet",
             "weight": 3,
             "functions": [
